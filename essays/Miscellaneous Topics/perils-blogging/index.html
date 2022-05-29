@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="David Ehrens" />
+  <title>Avoiding one peril of blogging</title>
+  <style>
+    html { line-height: 1.5; font-family: Georgia, serif; font-size: 18px; color: #1a1a1a; background-color: #fdfdfd; } body { margin: 0 auto; max-width: 40em; padding-left: 30px; padding-right: 30px; padding-top: 8px; padding-bottom: 30px; hyphens: auto; word-wrap: break-word; text-rendering: optimizeLegibility; font-kerning: normal; } @media (max-width: 600px) { body { font-size: 0.9em; padding: 1em; } } @media print { body { background-color: transparent; color: black; font-size: 12pt; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3, h4 { page-break-after: avoid; } } p { margin: 1em 0; } a { color: Crimson; /* #ee0000; */ text-decoration:none; } a:hover { color: Orange; } img { max-width: 100%; display:block; margin-left:auto; margin-right:auto; } h1, h2, h3, h4, h5, h6 { margin-top: 1.4em; } h5, h6 { font-size: 1em; font-style: italic; } h6 { font-weight: normal; } ol, ul { padding-left: 1.7em; margin-top: 1em; } li > ol, li > ul { margin-top: 0; } blockquote { margin: 1em 0 1em 1.7em; padding-left: 1em; border-left: 2px solid #e6e6e6; color: #606060; } code { font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace; font-size: 85%; margin: 0; } pre { margin: 1em 0; overflow: auto; } pre code { padding: 0; overflow: visible; } .sourceCode { background-color: transparent; overflow: visible; } hr { background-color: #1a1a1a; border: none; height: 1px; margin: 1em 0; } table { margin: 1em 0; border-collapse: collapse; width: 100%; overflow-x: auto; display: block; font-variant-numeric: lining-nums tabular-nums; } table caption { margin-bottom: 0.75em; } tbody { margin-top: 0.5em; border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; } th { border-top: 1px solid #1a1a1a; padding: 0.25em 0.5em 0.25em 0.5em; } td { padding: 0.125em 0.5em 0.25em 0.5em; } header { margin-bottom: 2em; text-align: center; font-family: Arial, Helvetica, san-serif; } h1.title { color: #777777; margin: 2px; } p.author, p.date { margin: 2px; font-style: italic; font-size: smaller; } #TOC li { list-style: none; } #TOC a:not(:hover) { text-decoration: none; } code{ white-space: pre-wrap; } span.smallcaps{ font-variant: small-caps; } span.underline{ text-decoration: underline; } div.column{ display: inline-block; vertical-align: top; width: 50%; } div.hanging-indent{ margin-left: 1.5em; text-indent: -1.5em; } ul.task-list{ list-style: none; } .display.math{ display: block; text-align: center; margin: 0.5rem auto; }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Avoiding one peril of blogging</h1>
+<p class="author">David Ehrens</p>
+<p class="date">2021-03-20 08:00</p>
+</header>
+
+<h3 id="introduction">Introduction</h3>
+<p>Of all the perils of blogging, it’s not the people who send you hate emails that are dangerous: it’s the copyright trolls — and also their occasionally legitimate cousins. I recently got slapped with a legitimate charge for inadvertently using a copyrighted image.</p>
+<p>If anyone sends you a bill of this sort, verify that in fact they represent the agency they claim to represent. In my case, I called Reuters and determined that the agency that had billed me was, in fact, legit.</p>
+<p>Here, then, is my advice on how to avoid improperly using copyrighted images on your website.</p>
+<p>I will assume most readers are running WordPress which purportedly powers 40% of the web.</p>
+<h3 id="getting-legal-images">Getting legal images</h3>
+<p>There are plenty of collections of stock images you can use under Creative Commons licenses. Most are generic images, perhaps a little bland, and may not be the type of image you are looking for, or they may require rooting around dozens of collections of stock images.</p>
+<p>An alternative is to use Google image search — as you may already be doing — but to use the <strong>advanced image search</strong>:</p>
+<p>https://www.google.com/advanced_image_search</p>
+<p>Now, for example, let’s search on “black lives matter” and move the cursor down to the bottom next to “Usage rights” where we’ll select Creative Commons licenses:</p>
+<p><img src="search-1.png" /></p>
+<p>This should bring up some images licensed under Creative Commons which we can use <strong>with attribution</strong>. I’ve circled one that we’re going to use as an example:</p>
+<p><img src="search-2.png" /></p>
+<p>To properly attribute an image this is an excellent guide:</p>
+<p>https://www.pixsy.com/academy/image-user/correctly-attribute-images/</p>
+<p>Our strategy will be to place all the copyright attribution information we need right in the caption of the Wordpress image in the WordPress Media Library (more on this in a minute).</p>
+<p>For this we need <strong>six pieces of information</strong>. We can usually track it all down from the image details provided by Google. Remember: <strong>you must provide attribution to prove your use is legit!</strong></p>
+<p><img src="search-3.png" /></p>
+<p>Here’s the information we found:</p>
+<ul>
+<li>Caption: Black Lives Matter - We Won’t Be Silenced</li>
+<li>Link to caption: https://www.flickr.com/photos/59952459@N08/28113568721</li>
+<li>Author: Alisdare Hickson</li>
+<li>Link to author: https://www.flickr.com/photos/alisdare/</li>
+<li>License: CC BY-NC 2.0</li>
+<li>Link to license: https://creativecommons.org/licenses/by-nc/2.0/</li>
+</ul>
+<h3 id="attributing-an-image">Attributing an image</h3>
+<p>Attributing an image is a bit of a pain but it’s got to be done. To make life easier, I developed a <a target="_blank" href="caption.sh">script</a> on my Mac. You should be able to use it on your Mac or a Linux system, or adapt it for Windows command line:</p>
+<pre><code>#!/bin/bash
+# this is a Unix &amp; MacOS script that will generate the correct HTML
+# for your Wordpress image caption.
+
+CAPTION=&quot;Black Lives Matter - We Won&#39;t Be Silenced&quot;
+CAPTIONLINK=&quot;https://www.flickr.com/photos/59952459@N08/28113568721&quot;
+
+AUTHOR=&quot;Alisdare Hickson&quot;
+AUTHORLINK=&quot;https://www.flickr.com/photos/alisdare/&quot;
+
+LICENSE=&quot;CC BY-NC 2.0&quot;
+LICENSELINK=&quot;https://creativecommons.org/licenses/by-nc/2.0/&quot;
+
+echo &quot;&lt;span style=&quot;font-style: italic;font-size:75%&quot;&gt; &quot;&lt;a href=&quot;$CAPTIONLINK&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;$CAPTION&lt;/a&gt;”, by &lt;a href=&quot;$AUTHORLINK&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;$AUTHOR&lt;/a&gt;, licensed under &lt;a href=&quot;$LICENSELINK&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;$LICENSE&lt;/a&gt;&lt;/span&gt;&quot; &gt; caption.txt
+
+open caption.txt</code></pre>
+<p>The script <a target="_blank" href="caption.txt">produces a text file</a> called <em>caption.txt</em> which you can open and use for cut and paste:</p>
+<pre><code>&lt;span style=&quot;font-style: italic;font-size:75%&quot;&gt; &quot;&lt;a href=&quot;https://www.flickr.com/photos/59952459@N08/28113568721&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Black Lives Matter - We Won&#39;t Be Silenced&lt;/a&gt;”, by &lt;a href=&quot;https://www.flickr.com/photos/alisdare/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Alisdare Hickson&lt;/a&gt;, licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-nc/2.0/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;CC BY-NC 2.0&lt;/a&gt;&lt;/span&gt;</code></pre>
+<h3 id="media-library">Media Library</h3>
+<p>In WordPress, add the downloaded image to your Media Library and also add the title and the generated caption code above to the image’s metadata. The generated code above will go in the <strong>Caption field</strong>:</p>
+<p><img src="media-1.png" /></p>
+<p>Now that the nightmare is over <strong>you can use the image in any WordPress post or page</strong>, and the caption (which is now fully attributed) will follow the image to whatever post in which you use it:</p>
+<p><img src="media-2.png" /></p>
+<h3 id="what-about-my-existing-images">What about my existing images?</h3>
+<p>If you are using a bunch of images that could turn around and bite you later, delete them.</p>
+<ol type="1">
+<li>Go into your media manager and <strong>delete the images</strong>.</li>
+<li>This <strong>will break some of the image links</strong> on pages or posts that are using the images. <strong>But no worry! We can fix it!</strong></li>
+<li>Install the <strong>Broken Link Checker plugin</strong> in WordPress</li>
+<li>Run Broken LInk Checker to scan all your links and then “unlink” any deleted images that broke links in the pages or posts.</li>
+</ol>
+<p><img src="broken-link-checker.png" /></p>
+<h3 id="how-to-check-questionable-images">How to check questionable images</h3>
+<p>You may still need to check some of the images you did not delete but believe <strong>may be</strong> safe to use.</p>
+<p>There are two ways that I know of to check an image:</p>
+<h5 id="google-reverse-image-search">Google Reverse Image Search</h5>
+<p><img src="reverse-1.png" /></p>
+<p>https://www.google.com/imghp?hl=en&amp;ogbl</p>
+<p>If we upload the image we were just looking at we can find all sorts of uses of it all over the internet. You may have to dig through all the images to find the owner’s version:</p>
+<p><img src="reverse-2.png" /></p>
+<h5 id="tineye">TinEye</h5>
+<p><img src="tineye-1.png" /></p>
+<p>https://tineye.com/</p>
+<p>Searching with <strong>TinEye</strong> produces a similar list of places the image can be found, but also information on whether it is a stock image or not:</p>
+<p><img src="tineye-2.png" /></p>
+</body>
+</html>

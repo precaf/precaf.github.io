@@ -1,0 +1,45 @@
+---
+author: David Ehrens
+title: What's a life worth?
+date: '2020-04-14 08:00'
+taxonomy:
+   category: blog
+   tag: [resist]
+---
+---
+
+In late March [Donald Trump](https://thehill.com/homenews/administration/489121-trump-signals-openings-us-not-built-to-be-shut-down) told the press corps, “Our country wasn’t built to be shut down […] This is not a country that was built for this.”  Since then Trump seems to have backpedaled on his notion to open the nation for business on Easter Sunday — presumably to the peals of church bells announcing the resurrection of the nation and his own polling numbers. But in a move calculated to sideline the nation's infectious disease experts — including some of his own advisors — Trump is back at it again.
+
+You never thought the pit bull was going to let go of your pants leg, did you?
+
+![](fauci.jpg)
+
+Trump recently [announced the formation](https://www.politico.com/news/2020/04/13/trump-coronavirus-reopening-council-184927) of an "Opening Our Country Council." He indicated that neither his son-in-law and daughter nor the Vice President would be involved, and it is still unclear who will actually be on the council, or why it is really necessary. Regardless, [Trump claims](https://www.politico.com/states/new-york/albany/story/2020/04/13/trump-claims-total-authority-over-state-decisions-1275506) that *he* — not state governors — has "total authority" to decide when workers will be forced to return to work — without testing, without masks, and without sufficient ICU beds or ventilators to let them survive the COVID-19 infections they will receive by returning too soon to the germ pool.
+
+Trump may not have a plan for dealing with the Corona virus, but he claims *total authority* to carry out that plan.
+
+Naturally, the nation's governors are pushing back. New York governor [Andrew Cuomo](https://thehill.com/homenews/state-watch/492164-cuomo-millions-and-millions-of-tests-needed-to-open-economy) said that before anyone talks about "opening" the nation for business the first order of business will be *testing*. Connecticut governor [Ned Lamont](https://thehill.com/homenews/state-watch/492645-connecticut-governor-no-restrictions-lifted-before-may-20th) announced that social distancing would remain in effect until *at least* May 20th, and New Jersey governor [Phil Murphy](https://thehill.com/homenews/sunday-talk-shows/492410-nj-governor-any-reopening-depends-first-and-foremost-on-a-complete) said that economic recovery depends entirely on public health safety.
+
+As for Trump's "total authority," [Cuomo](https://www.aljazeera.com/news/2020/04/king-trump-pushback-total-authority-claim-200414061646944.html) told CNN, "The president does not have total authority. We have a constitution, we don't have a king, we have an elected president." University of Texas Constitutional Law professor [Stephen Vladeck](https://twitter.com/steve_vladeck/status/1249835579153485825) agreed, slamming Trump's authoritarian move: "Nope. That would be the literal definition of a *totalitarian* government—which our traditions, our Constitution, and our values all rightly and decisively reject."
+
+With the nation in the grip of both a deadly pandemic and an incompetent fascist *wannabe*, the nation's governors have been left to their own devices.
+
+California governor Gavin Newsom announced that his [nation-state](https://www.latimes.com/california/story/2020-04-07/california-gavin-newsom-200-million-masks-coronavirus-rachel-maddow) of California had no choice but to fend for itself given Trump's inaction and incompetence. California, together with Oregon and Washington, has formed a [regional alliance](https://foreignpolicy.com/2020/04/14/us-governors-states-rights-defy-trump-by-forming-regional-alliances/) to plot its own course for economic recovery. The same strategy has been adopted by an alliance of [Northeast governors](https://www.masslive.com/coronavirus/2020/04/coronavirus-response-massachusetts-joins-discussions-on-northeast-reopening-plan-gov-charlie-bakers-office-confirms.html) from New York, Massachusetts, Rhode Island, Connecticut, Pennsylvania, New Jersey, and Delaware.
+
+When [Hong Kong](https://foreignpolicy.com/2020/03/24/trump-white-house-coronavirus-rollback-social-distancing/) temporarily suspended its lockdown after a few weeks, it experienced a spike in new infections and was forced to lock down citizens again. The same sort of spike occurred in [Singapore](https://www.theguardian.com/world/2020/apr/08/singapore-coronavirus-increase-revives-fears-of-post-lockdown-surge) after it prematurely relaxed social distancing. So [we know](https://www.washingtonpost.com/opinions/its-too-soon-to-relax-social-distancing/2020/03/23/23ae11a2-6d30-11ea-b148-e4ce3fbd85b5_story.html) that keeping people sheltered in place must go on much longer, and we know that only testing will tell us how much of the population has been exposed and how much has recovered.
+
+[Fifty million](https://www.ssa.gov/policy/docs/quickfacts/stat_snapshot/) Americans receive Social Security payments and many workers are either salaried or still manage to draw an income. These lucky enough to own their homes and have health insurance have a sense they will probably survive the pandemic. For the most part, this segment of America has enjoyed a healthy life of adequate and nutritious food, clean water and a clean environment, and does not have disproportionately high rates of diabetes, hypertensions or asthma. This privileged segment of America does *not* live in crowded apartments in [polluted](https://www.theroot.com/air-pollution-disproportionately-affects-black-folks-a-1842760466) neighborhoods for which they must pay rent, is *not* forced to commute during a pandemic on crowded subways or buses, and can afford to have someone else deliver food and supplies to their homes.
+
+But for the rest of America, life is incredibly precarious — and has always been. [African Americans](https://www.politico.com/news/2020/04/12/dc-mayor-coronavirus-african-american-health-disparities-180890), Latinos, [Indigenous people](https://thehill.com/homenews/state-watch/492408-new-mexico-governor-says-state-faces-unique-challenges-responding-to), the [working class](https://fivethirtyeight.com/features/the-young-americans-most-vulnerable-to-covid-19-are-people-of-color-and-the-working-class/), the working poor, and the disabled are at elevated risk and are dying in shameful numbers. There is an old saying something like, "When white folks catch a cold, black folks get pneumonia." By sending America's most vulnerable back to work without adequate protections, we are sending some to their deaths — all for the sake of corporate greed. And because their lives do not hold particularly great value by policy makers.
+
+As we now contemplate the frightening lack of hospital beds and ventilators — and who must die for lack of one — the rules for triage are revealed as decidedly racist. On April 7th Massachusetts Secretary of Health and Human Services [Marylou Sudders](https://www.baystatebanner.com/2020/04/13/coalition-urges-equity-in-covid-19-treatment/) released a memo entitled "Crisis Standards of Care Planning Guidance for the COVID-19 Pandemic" which described state guidelines for making decisions about who receives care and who doesn’t during the global pandemic. The memo describes the recommendations of a panel of medical professionals in which those with the lowest scores have the highest priority for treatment. "But among the factors giving patients a higher score, and therefore, a lower priority for medical intervention are health conditions common to black, Latino and Asian people including diabetes, hypertension and obesity."
+
+*Oh, well, they're just going to die anyway.*
+
+Similarly, Alabama's 2010 [triage handbook](https://thehill.com/policy/healthcare/491896-alabama-removes-controversial-ventilator-guidelines-that-denied-coronavirus) for ventilator use puts a low premium on the lives of disabled people: "persons with severe mental retardation, advanced dementia or severe traumatic brain injury may be poor candidates for ventilator support."
+
+We are not so very far away from the world of 1935, when a magazine called "New People" published by the new German "Racial Politics Office" pointed out to subscribers:
+
+> "60,000 Reich Marks is the cost to society of caring for those with congenital diseases. Citizens, this is your money."
+
+![](costs.jpg)

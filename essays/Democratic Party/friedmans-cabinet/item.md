@@ -1,0 +1,28 @@
+---
+author: David Ehrens
+title: Friedman's Cabinet
+date: '2020-04-07 08:00'
+taxonomy:
+   category: blog
+   tag: [resist]
+---
+---
+A New York Times editorial by [Tom Friedman](https://www.nytimes.com/2020/04/07/opinion/biden-campaign-covid.html) making the rounds offers specific recommendations for a Biden cabinet. Friedman's terrible picks deserve both scrutiny and comment.
+
+For starters, the "Team of Rivals" approach is even more ill-conceived today than it was in 2016. And backing up for a second, what's the rush to anoint Joe Biden before he survives the Coronavirus, the last Democratic primary, and a convention? Joe Biden is not Juan Guaidó: he can't simply proclaim himself president (or nominee) before an election says he is. Premature anointment is a 2016 mistake Democrats seem determined to repeat in 2020. This is a party that never learns.
+
+Instead of a "Team of Rivals" that magically makes Republicans sing *Kumbaya* along with Democrats, what we *really* need is an experienced *Democratic* cabinet that reflects America's neighborhoods and not America's boardrooms. We need a kick-ass team of Democrats who believe in science and education and health and economic and racial justice — including Democrats usually relegated to the sidelines while people like Friedman's choices run America into the ground as ineptly as their Republican golfing buddies.
+
+The Democratic Party is being held together with duct tape and spearmint gum. If Democrats need anything, it is to give power to people *already inside* the tent, especially progressives and African Americans — rather than handing Republicans, Think Tank ideologues, CEO's, and Friedman's Davos crowd any more power than they already have.
+
+Where Friedman casts a few crumbs to progressives and African Americans, they are cynical and ill-fitting posts akin to ambassadorships. With Friedman's picks, Corporate America can rest assured that Neoliberalism and reckless foreign policy will continue — and his choice of so many American oligarchs all but guarantees it.
+
+Worse, Friedman's cabinet assignments are an extension of the Centrist Democrat election "strategy" of sidelining progressives and minorities in favor of America's imagined "heartland" and "center." The enthusiasm with which Friedman's half-baked notions have gathered appreciative sighs is discouraging. It confirms my belief that Democrats are a party of small ideas and wishful thinking.
+
+Who on Friedman's List will finally deal with reparations, student debt, or the formation of a single-payer National Health Care System? Who on his list is prepared to implement economic, criminal, policing, and racial justice reforms? Remember: this will be a Biden monster cobbled together from human parts harvested from the Clinton and Obama administrations.
+
+Basically, the best Friedman has come up with is an offer to share Democratic power with Republicans immediately after being won — that is, if a lackluster candidate and an uninspiring cabinet can even inspire voters to choose a Democratic slate.
+
+Below are my comments on Friedman's specific choices. Among them are too many Centrists and Republicans, a frightening number of oligarchs, numerous Think Tank and Davos buddies, and a racial and socioeconomic mix that looks little like the real America.
+
+**Post** **Person** **Notes** Vice President Gov. Gretchen Whitmer of Michigan, former Health and Human Services Secretary Donna Shalala or Gov. Gina Raimondo of Rhode Island This is a giant "F\*\*\* You" to African Americans. And from which section of his colon did Friedman pull Gina Raimondo? Treasury Secretary Mike Bloomberg *Another* member of the Ruling Class? Health and Human Services Secretary Bill Gates *Another* member of the Ruling Class? Secretary of Oversight for the trillions of dollars in emergency Coronavirus spending Elizabeth Warren Instead of letting Warren create a single-payer national healthcare system Attorney General Merrick Garland Why not Kamala Harris and save Garland for SCOTUS (again)? Homeland Security Secretary Andrew Cuomo Another Giulani in the making; he is not acceptable to progressives Secretary of State Mitt Romney A White Republican, and not even one most White Republicans like Defense Secretary Michèle Flournoy A Clinton neoconservative, just what we *don't* need Labor Secretary Ro Khanna An attempt to buy off a progressive critic of reckless "Defense" spending Secretary of National Infrastructure Rebuild (Friedman's new cabinet post) Walmart C.E.O. Doug McMillon *Another* member of the Ruling Class? Commerce Secretary Former American Express C.E.O. Ken Chenault *Another* member of the Ruling Class? O.M.B. Director Gov. Mike DeWine of Ohio Why is Friedman afraid to let a Democrat run the OMB? Education Secretary Laurene Powell Jobs Friedman has been hob-nobbing at Davos too long with celebrities like Steve Jobs' widow U.N. ambassador Alexandria Ocasio-Cortez Why not put AOC in charge of the Green New Deal? Maybe because Centrists don't believe in it. HUD secretary Ford Foundation chief Darren Walker Walker is Friedman's only African-American pick but is not exactly in touch with its problems Interior Secretary Gov. Michelle Lujan Grisham of New Mexico Friedman treats this like an inherited position: Grisham's father, Manuel Lujan, was Bush's Interior Secretary Energy Secretary Andy Karsner (a green Republican who led renewable energy for George W. Bush) Another from the Davos crowd, and affiliated with Laurene Jobs. But why not an author or cosponsor of the Green New Deal? E.P.A. administrator Al Gore Gore made some nice movies back in the day, but my choice would be Jay Inslee

@@ -1,0 +1,48 @@
+---
+author: David Ehrens
+title: The damn emails, again
+date: '2017-01-08 18:00'
+taxonomy:
+   category: blog
+   tag: [dnc]
+---
+---
+
+![](clinton-email.jpg)
+
+During the primary debates last year Bernie Sanders told Hillary Clinton, "The American public are sick and tired of hearing about your damn emails." He was referring to a private email server Clinton had used for conducting State Department business which proved to be insecure when it was hacked, and from which [about 50,000 emails](https://wikileaks.org/clinton-emails/) were published in March 2016.
+
+Unfortunately the damn emails are *still* a problem -- rather, Democrats' somewhat McCarthyite insistence that Clinton's loss was due to Russian hacking. Whether true or not, this is a distraction from reforming both the party and the process that anointed, ran interference for, and unsuccessfully fielded a candidate with too many political vulnerabilities.
+
+Having thrashed Sanders in the primaries, the Democratic National Convention was supposed to be Clinton's coronation. Yet this was marred by a *second* [email scandal](https://wikileaks.org/dnc-emails/) that showed the DNC undermining Sanders in behalf of Clinton, as well as revealing blurry lines connecting Clinton's campaign with the Clinton Foundation and her super PACs.
+
+So Clinton changed the subject from leaks to *leaker*. At the DNC convention [her campaign accused](http://www.cnn.com/2016/07/25/politics/democratic-convention-russia-hack/index.html) "state actors" of being involved in the leak(s) which ultimately cost part-time DNC chair Debbie Wasserman-Schultz her job. [Wikileaks](https://wikileaks.org/-Leaks-.html) suddenly became not merely a gluteal pain but an agent of Russia's former KGB chief, Vladimir Putin. In October Wikileaks released John [Podesta's](https://wikileaks.org/podesta-emails/) DNC emails, throwing even *more* light on Clinton's campaign and even more gasoline on Cliinton's anger at Julian Assange.
+
+Wikileaks, which has been publishing whistleblower documents [for a decade](https://wikileaks.org/What-is-Wikileaks.html), has also released hundreds of thousands of Clinton State department cables, the infamous "Collateral Murder" video, Guantanamo Bay files, Iraq and Afghanistan war logs, documents showing the NSA spying on its "friends," CIA director Brennan's emails, German BND emails, Saudi cables, Henry Kissinger's cables, classified Congressional reports, TTP and TTIP drafts, IMF internal documents, Turkish AKP emails, IMF documents on the Greek economic crisis, UN confidential reports, and communications from private intelligence firms Statfor and HBGary. 
+
+Seen in one light, all this has a certain unity -- democratizing  American (and Western) foreign and economic policies by showing how the sausage *really* gets made. Seen in a dimmer light, all this must be the work of the Russian Bear.
+
+Giving some credence to the argument that Democrats are ungracious losers, the [Obama White House](https://www.washingtonpost.com/world/national-security/intelligence-community-investigating-covert-russian-influence-operations-in-the-united-states/2016/09/04/aec27fa0-7156-11e6-8533-6b0b0ded0253_story.html?tid=a_inl) released an unclassified Office of the Director of National Intelligence (ODNI) [report](https://icontherecord.tumblr.com/post/155494946443/odni-statement-on-declassified-intelligence) ("Assessing Russian Activities and Intentions in Recent US Elections"), accusing Russia of meddling in the last election. But the report is so heavily redacted and filled with qualifications and generalizations that it says little, proves nothing, and is pretty useless. *The Intercept's* Sam Biddle suggests this calls for a [Congressional investigation](https://theintercept.com/2017/01/06/underwhelming-intel-report-shows-need-for-congressional-investigation-of-dnc-hack/).
+
+Several credible (and detailed) reports indeed point to the role of Russian military intelligence in sucking up troves of political, economic, and intelligence data from the US, [Germany](https://www.wirtschaftsschutz.info/SharedDocs/Kurzmeldungen/DE/ITSicherheit/newsletter_bfv_allgemein_01_16_download.pdf?__blob=publicationFile&v=4), and NATO allies (all of whom the [NSA](http://www.spiegel.de/international/germany/cover-story-how-nsa-spied-on-merkel-cell-phone-from-berlin-embassy-a-930205.html) routinely spies on too). Cryptographer [Bruce Schneier](https://www.schneier.com/blog/archives/2016/07/russian_hack_of.html) has a good overview, which [references](https://motherboard.vice.com/read/all-signs-point-to-russia-being-behind-the-dnc-hack) investigations by [Crowdstrike](https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/) and [Threatconnect](https://www.threatconnect.com/blog/guccifer-2-0-dnc-breach/) mentioned in the ODNI report.
+
+Interestingly, much of the ODNI report is focused on "fake news" or the manipulation of Facebook "news" and "likes," Twitter feeds, "trolling" by commenting on online articles, or published pieces in [RT Online](https://www.rt.com/), Russia's version of our [Voice of America](http://www.voanews.com/). RT's coverage of the Panama Papers and the "Occupy Wall Street" and anti-fracking movements drew special ire for "meddling" although there was very little connection to the 2016 election. ODNI pointed to "Russian footprints" of hackers like [Guccifer 2.0](http://arstechnica.com/security/2016/06/guccifer-leak-of-dnc-trump-research-has-a-russians-fingerprints-on-it/) (a [Romanian hacker](https://motherboard.vice.com/read/dnc-hacker-guccifer-20-interview)). Although the report characterized Russian involvement as "information warfare" it steps back from claiming it had any effect on the election:
+
+> "We did not make an assessment of the impact that Russian activities had on the outcome of the 2016 election. The US Intelligence Community is charged with monitoring and assessing the intentions, capabilities, and actions of foreign actors; it does not analyze US political processes or US public opinion."
+
+If it wasn't the Russians, it would have been somebody. Besides Russia, other nations had the means -- including our own US intelligence agencies ([one of which](http://www.usatoday.com/story/news/politics/onpolitics/2016/11/06/fbis-comey-upended-election-and-pretty-much-everyone-twitter-upset/93402324/) proved to have no qualms about intervening in a domestic election) -- and some had motive: Israel, China, and North Korea, for example. Even Donald [Trump](https://www.washingtonpost.com/video/national/trumps-says-china-obese-person-could-have-hacked-dnc/2016/09/27/b7a71ac8-84ab-11e6-b57d-dd49277af02f_video.html) -- who, like a stopped clock, is still right twice a day -- makes a valid point. Plenty of hackers could have penetrated a tantalizing target like the DNC in an election year. Wikileak's Julian Assange claims even some [14 year-olds](http://www.foxnews.com/politics/2017/01/04/wikileaks-assange-14-year-old-kid-could-have-hacked-podesta-emails.html) have the skills to do it. From the wide availability of hacking tools easily downloaded by relatively unskilled users, I suspect he's right.
+
+Wikileaks has [repeatedly said](https://www.washingtonpost.com/news/fact-checker/wp/2017/01/05/julian-assanges-claim-that-there-was-no-russian-involvement-in-wikileaks-emails/) that [the Podesta documents did not come from Russia](http://www.cnn.com/2017/01/04/politics/assange-wikileaks-hannity-intv/index.html). Former British ambassador Craig Murray, a Wikileaks associate, [claims he received](http://www.dailymail.co.uk/news/article-4034038/Ex-British-ambassador-WikiLeaks-operative-claims-Russia-did-NOT-provide-Clinton-emails-handed-D-C-park-intermediary-disgusted-Democratic-insiders.html) the documents from a Democratic Party whistleblower. Who knows? And who knows if the Russians poked around, while the leak itself actually did come from a whistleblower? Maybe a Congressional investigation will tell us something. But to what end?
+
+Every nation seems to trawl every other nation for intelligence, economic, and political advantage. And people generally use what they steal. Russia could very well have "outed" Clinton and the DNC by passing data through layers of intermediaries to Wikileaks. So what?
+
+The *provenance* of the information should be less important than the information itself.
+
+Russian bears, Red Scares, Congressional inquiries, and plots involving a guy holed up in the Ecuadorian embassy. All this would make a great movie. But none of it changes the fact that the emails publicly revealed were real. *Now we know.* There was simply far too much coziness between Clinton, "her" DNC, the Clinton Foundation, "her" SuperPACs -- and precious little transparency. Until the leaks.
+
+Last October [Brian Fallon](https://twitter.com/brianefallon/status/785703668490309633), the Clinton campaign's press secretary, tweeted Julian Assange: "You are a propaganda arm of the Russian government, running interference for their pet candidate." Even if it's true, and even if Assange is wittingly or unwittingly a Russian stooge, Democrats should *thank* him for publishing the DNC trove. The emails didn't cost Clinton the election after publication. Long before that they cost the party a candidate who could have beaten Trump.
+
+The DNC emails give us a good idea of how a campaign should *never* be run. They also remind us that a candidate's vulnerabilities can't be kept under wraps in a world without much privacy or by refusing to do interviews. And they show us that the DNC needs a complete renovation.
+
+So let's fix the damned DNC.
+
