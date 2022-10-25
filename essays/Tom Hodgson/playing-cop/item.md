@@ -7,10 +7,10 @@ taxonomy:
    tag: [post]
 ---
 ---
- 
+
 ![](dartmouth.jpg)
 
-In Massachusetts, sheriffs and deputies are *law enforcement* officers with limited powers who may *assist* genuine police officers when requested. But they are not *police officers*. Sheriffs run jails, transport prisoners, serve eviction and other notices, and are prohibited from patrolling cities and towns — which are chartered (through state laws) to appoint and hire police officers with *full* police powers (a crucial point mentioned shortly). Sheriffs, however, *do* enjoy a few limited *[police-like](https://malegislature.gov/Laws/GeneralLaws/PartIV/TitleII/Chapter279/Section38)*[ powers](https://malegislature.gov/Laws/GeneralLaws/PartIV/TitleII/Chapter279/Section38); for example, while they are transporting prisoners through a foreign jurisdiction or *when asked* to assist in quelling a riot. And that’s about it.
+In Massachusetts, sheriffs and deputies are *law enforcement* officers with limited powers who may *assist* genuine police officers when requested. But they are not *police officers*. Sheriffs run jails, transport prisoners, serve eviction and other notices, and are prohibited from patrolling cities and towns — which are chartered (through state laws) to appoint and hire police officers with *full* police powers (a crucial point mentioned shortly). Sheriffs, however, *do* enjoy a few limited *[police-like](https://malegislature.gov/Laws/GeneralLaws/PartIV/TitleII/Chapter279/Section38)* powers; for example, while they are transporting prisoners through a foreign jurisdiction or *when asked* to assist in quelling a riot. And that’s about it.
 
 But like Hershel Walker, Bristol County's Sheriff Thomas Hodgson keeps trying to pass himself off as the police — and whenever Hodgson's tried it, it's either been unappreciated or he's failed at it. Hodgson *implies* he has police powers by claiming to be tough on crime, but since he has very limited police-like powers all he can *really* do is suggest that women carry pepper spray, hand out swag to seniors at "safety" talks, lend out canines, and have his jail officers pose with children and his $250K "Homeland Security" command truck at parades.
 
@@ -27,7 +27,7 @@ Between 1991 and 2005 Peter Larkin was Hodgson's "Detective Lieutenant of Intern
 
 ABC6 News [reported](https://www.abc6.com/former-new-bedford-public-school-employee-fired-over-comments-made-on-social-media/) in July 2020 that Larkin, who eventually found work as an attendance officer with the New Bedford Public Schools, had been fired (again) from *that* job for advocating *lynching* Black Lives Matter protesters: "I would roll tanks and bulldozers. Mush any human in the way. Shoot everyone else. Pile up the bodies and burn them on national tv." Within days Larkin had to [resign](https://wbsm.com/report-new-bedford-public-school-staffer-resigns-following-facebook-post/). This news was no surprise given Hodgson's membership in a hate group and memberships in several extremist organizations.
 
-On January 12, 2017 the State Judicial Court, the “Supreme Court” of Massachusetts, considered the legality of a sheriff calling himself a police officer, and drew a clear distinction between *law enforcement officer* and *police officer* in [Commonwealth v. Gernrich](https://www.leagle.com/decision/inmaco20170112199) where it concluded that “sheriff's deputies are *not* police officers.”
+On January 12, 2017 the state Supreme Judicial Court considered the legality of a sheriff calling himself a police officer, and drew a clear distinction between *law enforcement officer* and *police officer* in [Commonwealth v. Gernrich](https://www.leagle.com/decision/inmaco20170112199) where it concluded that “sheriff's deputies are *not* police officers.”
 
 ![](sjc.jpg)
 
