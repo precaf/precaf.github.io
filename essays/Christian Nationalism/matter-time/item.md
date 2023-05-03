@@ -52,7 +52,7 @@ In coordinating his attack on district school libraries, Pires managed to violat
 
 I located three of Pires' Facebook accounts ([this](https://www.facebook.com/JoePiresORRSC/) and [this](https://www.facebook.com/groups/1865623920344562/user/1422655257) and [this](https://www.facebook.com/joe.gpb)) and two of Fernandes' ([this](https://www.facebook.com/groups/1865623920344562/user/100003614575364) and [this](https://www.facebook.com/anne.fernandes.562)). Fernandes seems to spend a fair amount of her time promoting [an Evangelical church](https://www.churchfinder.com/churches/ma/middleboro/meetinghouse-church) as well as many of the groups that PEN identifies as censorship organizations.
 
-Pires is bad enough, but Fernandes is a real piece of work. In addition to her [hate-filled posts](https://mega.nz/folder/dX03gRTL#rLQcBdxwTrUD6SA8wyq40A) about gay children and parents, Fernandes ignorantly dispenses conspiracy theories and just plain bad science. There are numerous examples of Facebook flagging her posts with the polite equivalent of "BS!"
+Pires is bad enough, but Fernandes is a real piece of work. In addition to her [hate-filled posts](https://precaf.github.io/links/Fernandes.zip) about gay children and parents, Fernandes ignorantly dispenses conspiracy theories and just plain bad science. There are numerous examples of Facebook flagging her posts with the polite equivalent of "BS!"
 
 ![](warning.png)
 
@@ -60,7 +60,7 @@ Fernandes is just the sort of creature that Republicans love, which is why the M
 
 ![](republicans.jpg)
 
-At that October 27th presentation organized by the Mattapoisett Republicans, Fernandes worked from [PowerPoint slides](https://mega.nz/file/0S1EmKyZ#RXJSAWdlnIOf3GcjeKEW2Q5QL2RZ6xW99Pqcej4tdyY), claiming that librarians are indoctrinating children with "CRT" instead of history and passing themselves off as sex education teachers (she’s confusing them with teachers). And for an "expert" with 22 years of teaching, Fernandes seems completely clueless that LGBTQ+ kids are at risk and that books that represent them help.
+At that October 27th presentation organized by the Mattapoisett Republicans, Fernandes worked from [PowerPoint slides](https://precaf.github.io/links/what-learning.pdf), claiming that librarians are indoctrinating children with "CRT" instead of history and passing themselves off as sex education teachers (she’s confusing them with teachers). And for an "expert" with 22 years of teaching, Fernandes seems completely clueless that LGBTQ+ kids are at risk and that books that represent them help.
 
 ![](what-discussing.png)
 
@@ -103,8 +103,3 @@ As much as I hate to say it, all these efforts by kind and caring people, includ
 Equality, diversity, education, race, history, libraries, free speech, and respect and acknowledgement of differences. These are today’s battlefields for Republicans. 
 
 It's high time that local Democrats started fighting alongside the brave and lonely defenders who have been waging the Democratic Party's battles for them.
-
-------
-
-*Click* [*here*](https://mega.nz/folder/IPMHyRID#EMTMEFmz5_DO7l7qSyDrRw) *to view a collection of reference documents and images.*
-
