@@ -28,7 +28,7 @@ In June, PAN spokesman, Pinal County (AZ) Sheriff Mark Lamb, announced the creat
 
 Massachusetts voters have reason to fear that Sheriff Thomas Hodgson, ever the Trump [sycophant](https://www.cbsnews.com/boston/news/president-trump-executive-order-police-sheriff-hodgson/), would put his deputies at Trump’s disposal as enthusiastically as he tried to use his inmates to build Trump's wall.
 
-Hodgson did not appear on the [speakers list](https://freedomfest2022.sched.com/directory/speakers) of the FreedomFest 2022 conference but there *is* a gap in his social media posts between July 13-16. I have called, [emailed](https://app.box.com/s/10vg3go37fs58aw1509rh2h7qy14vx4h), and [texted](https://app.box.com/s/144p53k68v7woddbk0k8gst4dktuiyu0) Jon Darling, Hodgson's media representative, to confirm if Hodgson attended FreedomFest. So far, nothing.
+Hodgson did not appear on the [speakers list](https://freedomfest2022.sched.com/directory/speakers) of the FreedomFest 2022 conference but there *is* a gap in his social media posts between July 13-16. I have called, [emailed](https://precaf.github.io/links/confirmation.png), and [texted](https://precaf.github.io/links/message.png) Jon Darling, Hodgson's media representative, to confirm if Hodgson attended FreedomFest. So far, nothing.
 
 In any case, if we want to prevent the theft of voting machines (and elections), it's time to dust off Cabral and Straus's bill keeping our increasingly partisan and authoritarian sheriffs out of polling places.
 
