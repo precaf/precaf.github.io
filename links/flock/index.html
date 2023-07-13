@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body,html { 
+  line-height: 1.5; 
+  font-family: Calibri, Optima, Arial; 
+  font-size: 18px; 
+  background-color: lightgray; 
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #ee0000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<title>ALPR Documents</title>
+</head>
+<body>
+
+<h2>ALPR Documents</h2>
+
+<p>Click on an icon to read the corresponding document.</p>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Flock ALPR FAQs-1.pdf">
+      <img src="pdf.png" alt="Flock ALPR FAQs-1.pdf" width="600">
+    </a>
+    <div class="desc">Flock ALPR FAQs-1.pdf</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Flock Overview for Cities-1.pdf">
+      <img src="pdf.png" alt="Flock Overview for Cities-1.pdf" width="600">
+    </a>
+    <div class="desc">Flock Overview for Cities-1.pdf</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Flock Safety ALPR Privacy + Ethics-1.pdf">
+      <img src="pdf.png" alt="Flock Safety ALPR Privacy + Ethics-1.pdf" width="600">
+    </a>
+    <div class="desc">Flock Safety ALPR Privacy + Ethics-1.pdf</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="alpr.html">
+      <img src="html.png" alt="alpr.html" width="600">
+    </a>
+    <div class="desc">alpr.html</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+<div style="padding:6px;">
+  <p>Documents related to Dartmouth's ALPR trial</p>
+</div>
+</body>
+</html>
