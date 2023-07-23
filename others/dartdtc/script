@@ -1,3 +1,0 @@
-#/bin/bash
-BASEDIR=$(dirname "$0")
-open -n -a "Brave Browser Nightly" --args --new-window "$BASEDIR/index.html"
