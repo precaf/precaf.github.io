@@ -21,7 +21,7 @@ Massachusetts is one of 21 states that does not yet require sex education and ex
 
 But for an overwhelming number of Commonwealth families it is important that students have a health curriculum which emphasizes the importance of consent in a healthy relationship and one that is inclusive of students of all gender identities and sexual orientations. 
 
-I urge BESE to vote to adopt this new Framework and I look forward to learning how DESE will support educators in implementing it in their classrooms. 
+I urge DESE to vote to adopt this new Framework and I look forward to learning how DESE will support educators in implementing it in their classrooms. 
 
 Sincerely,
 
