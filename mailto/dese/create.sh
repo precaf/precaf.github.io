@@ -1,6 +1,6 @@
 PEOPLE="Kristen McKinnon <chpef@mass.gov>"
 CC=""
-BCC="Liz Dicarlo <lizdicarlo@comcast.net>,Nicki Demakis <NDemakis@tidlaw.com>,"
+BCC="beacon23@proton.me"
 LETSTRING=""
 TOPIC="Take Action for Healthy Youth - Support DESE Framework"
 OUTPUTFILE="index.html"
