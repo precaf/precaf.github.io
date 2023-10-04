@@ -4,14 +4,11 @@ window.addEventListener("orientationchange", function() {
 }, false);
 
 function whatsWhat () {
-	var squares = 88;
 	var width = window.innerWidth;
 	var height = window.innerHeight;
-	var total = width * height;
-	var pixels = screen.pixelDepth;
-	var avg = Math.sqrt(total/squares)-25;
-	var psize = Math.floor(avg);
-	var DEBUG = 'squares='+squares+' width='+width+' height='+height+' total='+total+' pixels='+pixels+' avg='+avg+' psize='+psize
+	var smallest = Math.min(width,height);
+	var psize = Math.floor(smallest/8);
+	var DEBUG = 'width='+width+' height='+height+' smallest='+smallest+' psize='+psize
 	document.write('\n<style>img { width:' + psize + 'px; height:' + psize + 'px; }</style>\n');
 	document.write('\n<!--  '+DEBUG+'  -->\n');
 }
