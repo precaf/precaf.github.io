@@ -20,12 +20,14 @@ function whatsWhat () {
 	}	
 	if (navigator.userAgent.match(/iPad/i)) {
 	   browserName = 'iPad';
+	   psize = 79;
 	} else {
 	   if (navigator.userAgent.match(/iPhone/i)) {
 	      browserName = 'iPhone';
+	      psize = 79;
 	   }
 	}
-	var DEBUG = 'browserName='+browserName+' width='+width+' height='+height+' pixwidth='+pixwidth+' pixheight='+pixheight+' psize='+psize
+	var DEBUG = 'userAgent='+userAgent+' browserName='+browserName+' width='+width+' height='+height+' pixwidth='+pixwidth+' pixheight='+pixheight+' psize='+psize
 	document.write('\n<style>img { width:' + psize + 'px; height:' + psize + 'px; }</style>\n');
 	document.write('\n<h2 style="color:white">  '+DEBUG+'  </h2>\n');
 }
