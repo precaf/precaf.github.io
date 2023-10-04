@@ -21,7 +21,7 @@ function whatsWhat () {
 	if (navigator.userAgent.match(/iPad/i)) {
 	   browserName = 'iPad';
 	} else {
-	   if (navigator.userAgent.match(/iPad/i)) {
+	   if (navigator.userAgent.match(/iPhone/i)) {
 	      browserName = 'iPhone';
 	   }
 	}
