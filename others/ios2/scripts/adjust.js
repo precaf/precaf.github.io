@@ -4,7 +4,7 @@ window.addEventListener("orientationchange", function() {
 }, false);
 
 function whatsWhat () {
-	var squares = 88;
+	var squares = 100;
 	var width = window.innerWidth;
 	var height = window.innerHeight;
 	var total = width * height;
