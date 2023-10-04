@@ -6,16 +6,17 @@ window.addEventListener("orientationchange", function() {
 function whatsWhat () {
 	var width = window.innerWidth;
 	var height = window.innerHeight;
-	var dim1 = 1; var dim2 = 1;
+	var pixwidth = 1; var pixheight = 1; var psize = 1;
 	if (width < height) {
-	   dim1 = Math.floor((width-108)/8);
-	   dim2 = Math.floor((height-144)/11);
+	   pixwidth = Math.floor(width/8)-14;
+	   pixheight = Math.floor(height/11)-14;
+	   psize = Math.max(pixwidth,pixheight);
 	} else {
-	   dim1 = Math.floor((height-108)/8);
-	   dim2 = Math.floor((width-144)/11);
+	   pixwidth = Math.floor(height/11)-14;
+	   pixheight = Math.floor(width/8)-14;
+	   psize = Math.max(pixwidth,pixheight);
 	}	
-	var psize = Math.max(dim1,dim2);
-	var DEBUG = 'width='+width+' height='+height+' dim1='+dim1+' dim2='+dim2+' psize='+psize
+	var DEBUG = 'width='+width+' height='+height+' pixwidth='+pixwidth+' pixheight='+pixheight+' psize='+psize
 	document.write('\n<style>img { width:' + psize + 'px; height:' + psize + 'px; }</style>\n');
 	document.write('\n<!--  '+DEBUG+'  -->\n');
 }
