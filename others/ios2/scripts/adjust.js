@@ -27,7 +27,7 @@ function whatsWhat () {
 	}
 	var DEBUG = 'browserName='+browserName+' width='+width+' height='+height+' pixwidth='+pixwidth+' pixheight='+pixheight+' psize='+psize
 	document.write('\n<style>img { width:' + psize + 'px; height:' + psize + 'px; }</style>\n');
-	document.write('\n<!--  '+DEBUG+'  -->\n');
+	document.write('\n<h2 style="color:white">  '+DEBUG+'  </h2>\n');
 }
 
 whatsWhat();
