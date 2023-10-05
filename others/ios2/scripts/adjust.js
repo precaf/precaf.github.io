@@ -8,10 +8,10 @@ function whatsWhat () {
     var browserName = 'Desktop';
     var pixels = screen.width * screen.height;
     switch (pixels) {
-       case (1920*1200): 
+       case (744*1133): 
          browserName = 'iPad';
        break;
-       case (1920*1200): 
+       case (390*844): 
          browserName = 'iPhone';
        break;
        default: 
@@ -20,8 +20,10 @@ function whatsWhat () {
     }
 	var width = screen.width;
 	var height = screen.height;
+	var browserwidth = window.innerWidth;
+	var browserheight = window.innerHeight;
 	var orientation = 'landscape';
-	if (width < height) {
+	if (browserwidth < browserheight) {
 	  orientation = 'portrait';
 	}
 	var pixwidth = 1; var pixheight = 1; var psize = 1;
@@ -43,7 +45,7 @@ function whatsWhat () {
 	      psize = 79;
 	   }
 	}
-	var DEBUG = 'userAgent='+userAgent+' browserName='+browserName+' width='+width+' height='+height+' orientation='+orientation+' pixwidth='+pixwidth+' pixheight='+pixheight+' psize='+psize
+	var DEBUG = 'userAgent='+userAgent+' browserName='+browserName+' width='+width+' height='+height+' browserwidth='+browserwidth+' browserheight='+browserheight+' orientation='+orientation+' pixwidth='+pixwidth+' pixheight='+pixheight+' psize='+psize
 	document.write('\n<style>img { width:' + psize + 'px; height:' + psize + 'px; }</style>\n');
 	document.write('\n<h2 style="color:yellow">  '+DEBUG+'  </h2>\n');
 }
