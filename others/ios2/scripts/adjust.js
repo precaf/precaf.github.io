@@ -29,7 +29,7 @@ function whatsWhat () {
 	}
 	var DEBUG = 'userAgent='+userAgent+' browserName='+browserName+' width='+width+' height='+height+' pixwidth='+pixwidth+' pixheight='+pixheight+' psize='+psize
 	document.write('\n<style>img { width:' + psize + 'px; height:' + psize + 'px; }</style>\n');
-	document.write('\n<h2 style="color:white">  '+DEBUG+'  </h2>\n');
+	document.write('\n<h2 style="color:yellow">  '+DEBUG+'  </h2>\n');
 }
 
 whatsWhat();
