@@ -1,4 +1,4 @@
-window.addEventListener("orientationchange", function() {
+window.addEventListener("landscapechange", function() {
 	whatsWhat();
 	window.location.reload();
 }, false);
@@ -22,32 +22,19 @@ function whatsWhat () {
 	var height = screen.height;
 	var browserwidth = window.innerWidth;
 	var browserheight = window.innerHeight;
-	var orientation = 'landscape';
+	var landscape = true;
 	if (browserwidth < browserheight) {
-	  orientation = 'portrait';
+	  landscape = false;
 	}
-	var pixwidth = 1; var pixheight = 1; var psize = 1;
-	if (width < height) {
-	   pixwidth = Math.floor(width/8)-14;
-	   pixheight = Math.floor(height/11)-14;
-	   psize = Math.max(pixwidth,pixheight);
+	if (landscape) {
+	   psize = Math.floor((browserwidth-12*12)/11)
 	} else {
-	   pixwidth = Math.floor(height/11)-14;
-	   pixheight = Math.floor(width/8)-14;
-	   psize = Math.max(pixwidth,pixheight);
-	}	
-	if (navigator.userAgent.match(/iPad/i)) {
-	   browserName = 'iPad';
-	   psize = 79;
-	} else {
-	   if (navigator.userAgent.match(/iPhone/i)) {
-	      browserName = 'iPhone';
-	      psize = 79;
-	   }
+	   psize = Math.floor((browserwidth-9*12)/8)
 	}
-	var DEBUG = 'userAgent='+userAgent+' browserName='+browserName+' width='+width+' height='+height+' browserwidth='+browserwidth+' browserheight='+browserheight+' orientation='+orientation+' pixwidth='+pixwidth+' pixheight='+pixheight+' psize='+psize
+	
+	var DEBUG = 'userAgent='+userAgent+' browserName='+browserName+' width='+width+' height='+height+' browserwidth='+browserwidth+' browserheight='+browserheight+' landscape='+landscape+' psize='+psize
 	document.write('\n<style>img { width:' + psize + 'px; height:' + psize + 'px; }</style>\n');
-	document.write('\n<h2 style="color:yellow">  '+DEBUG+'  </h2>\n');
+	document.write('\n<!--  '+DEBUG+'  -->\n');
 }
 
 whatsWhat();
