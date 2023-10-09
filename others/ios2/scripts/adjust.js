@@ -1,6 +1,11 @@
 window.addEventListener("landscapechange", function() {
 	whatsWhat();
-	window.location.reload();
+	window.location.reload(true);
+}, false);
+
+window.addEventListener("resize", function() {
+	whatsWhat();
+	window.location.reload(true);
 }, false);
 
 function whatsWhat () {
@@ -35,6 +40,7 @@ function whatsWhat () {
 	var psize = Math.min(x,y);
 	
 	var DEBUG = 'userAgent='+userAgent+' browserName='+browserName+' width='+width+' height='+height+' browserwidth='+browserwidth+' browserheight='+browserheight+' landscape='+landscape+' psize='+psize+' x='+x+' y='+y;
+
 	document.write('\n<style>img { width:' + psize + 'px; height:' + psize + 'px; }</style>\n');
 	document.write('\n<!-- '+DEBUG+' -->\n');
 }
