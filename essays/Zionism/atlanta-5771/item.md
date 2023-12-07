@@ -1,13 +1,14 @@
 ---
 author: David Ehrens
-title: Atlanta, 5771, might as well be 1935
+title: Atlanta 5771, might as well be 1935
 date: '2011-11-10 08:00'
 taxonomy:
    category: blog
-   tag: [link,islamophobia,judaism,zionism]
+   tag: [post]
 ---
 ---
-[![Rabbi Lewis](lewis.jpg)](lewis.jpg) 
+ 
+![](lewis.jpg)
 
 It finally found its way into my synagogue's newsletter. 
 
@@ -19,7 +20,8 @@ I read and found the sermon very offensive, as I do any time a preacher, rabbi o
 
 I thought about this while I re-read Rabbi Lewis’ sermon and it struck me as ironic that a Jew -- a rabbi no less -- would willingly play the part of religious *Hetzer.* 
 
-[![Nazis and priest\](priests.jpg)](priests.jpg) 
+![](priests.jpg)
+
 
 In the Germany of 1935, while there were certainly members of the clergy like Dietrich [Bonhoeffer](http://www.bonhoeffer.com/bak1.htm), Martin Niemoeller, or Karl Barth, who spoke out clearly and with almost as much passion as Jewish prophets themselves against the Nazi regime, for the most part the *Pfarrer* (pastors) of [mainly](http://www.ushmm.org/wlc/en/article.php?ModuleId=10005206) the *Evangelische* (Lutheran) church (but also the Catholic church) practically tripped over themselves in embracing the new German culture war on Jews. Even the [church itself](http://www.dw-world.de/dw/article/0,,5174463,00.html) was enlisted in the persecution. [Susannah Heschel](http://www.haaretz.com/news/a-conversation-with-susannah-heschel-1.271999) has documented this sad chapter of German religious history. 
 
@@ -55,7 +57,7 @@ Next, Lewis paints Islam as a disease to be eradicated:
 
 > "Let’s try an analogy. If someone contracted a life-threatening infection and we not only scolded them for using antibiotics but insisted that the bacteria had a right to infect their body and that perhaps, if we gave the invading infection an arm and a few toes, the bacteria would be satisfied and stop spreading. [...] Anyone buy that medical advice? Well, folks, that’s our approach to the radical *Islamist bacteria*. It is *amoral, has no conscience* and will spread unless it is eradicated. -- There is no negotiating. Appeasement is death."
 
-[![Jews as bacteri\](bacteria.jpg)](bacteria.jpg) 
+![](bacteria.jpg)
 
 I found this disturbing and repugnant because, once again, my neighbor had a point. In 1935 German propaganda posters portrayed Jews as a bacteria. [Yad Vashem](http://www.yadvashem.org/download/education/conf/Millsishedwithoutpic.pdf) has also documented a series of "educational" materials published at the time in Germany which included descriptions of Jews as: 
 
