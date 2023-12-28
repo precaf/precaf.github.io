@@ -10,7 +10,7 @@ taxonomy:
  
 ![](herzl.png)
 
-I am an unapologetic anti-Zionist. I do not accept that a "chosen" people ought to have exclusive ownership over any chunk of the planet. No self-respecting omnipotent creature — if such even existed — would sign over real estate of a paltry seven or eight thousand square miles of land to a tiny number of people on a puny planet in a vast cosmos of trillions of possible worlds. Where’s the ambition in that?
+I am an unapologetic anti-Zionist. I do not accept that a "chosen" people ought to have exclusive ownership over any chunk of the planet. No self-respecting omnipotent deity — if such even existed — would sign over real estate of a paltry seven or eight thousand square miles of land to a tiny number of people on a puny planet in a vast cosmos of trillions of possible worlds. Where’s the ambition in that?
 
 Moreover, I do not accept that *any* privileged group has the right to lay claim to any part of the planet or its resources. Each of the many worlds in the universe belongs to all of the living creatures in it. This essential belief probably explains why I'm a socialist on top of my many other faults.
 
