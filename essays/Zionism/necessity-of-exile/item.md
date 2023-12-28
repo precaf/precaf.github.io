@@ -14,7 +14,7 @@ I am an unapologetic anti-Zionist. I do not accept that a "chosen" people ought 
 
 Moreover, I do not accept that *any* privileged group has the right to lay claim to any part of the planet or its resources. Each of the many worlds in the universe belongs to all of the living creatures in it. This essential belief probably explains why I'm a socialist on top of my many other faults.
 
-Last week, on one of my walks, I listened to a couple of episodes with Saul Magid on Daniel Denvir's podcast, "The Dig." Magid has exceptional recall, insight and clarity into the nature and history of Zionism and the two episodes I listened to covered a lot of ground. They are an excellent, quick introduction for anyone interested in what Zionism is, and how it came about:
+Last week, on one of my walks, I listened to a couple of episodes with Shaul Magid on Daniel Denvir's podcast, "The Dig." Magid has exceptional recall, insight and clarity into the nature and history of Zionism and the two episodes I listened to covered a lot of ground. They are an excellent, quick introduction for anyone interested in what Zionism is, and how it came about:
 
 - Magid - [Zionism (episode 1)](https://thedigradio.com/podcast/zionism-vs-anti-zionism-ep-1-w-shaul-magid/)
 - Magid - [Zionism (episode 2)](https://thedigradio.com/podcast/zionism-vs-anti-zionism-ep-2-w-shaul-magid/)
