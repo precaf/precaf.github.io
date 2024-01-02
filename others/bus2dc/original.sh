@@ -6,27 +6,21 @@ TEMPFILE="_temp_"
 
 function letter {
 read -d '' LETSTRING << _EOR_
-Please provide the following information:
+Hello,
 
-Name of individual interested in either taking or donating to the bus: [name]
+I want to reserve a seat on the January 12th bus from New Bedford, which will carry participants to the March on Washington for Gaza and arrive the morning of January 13th.
 
-Payment [\$amount] [type]
+I agree that this order is a promise to reimburse the coalition the cost of the \$50 trip. 
 
-Taking the bus [__]  Can\'t attend but will donate [__]
+The trip includes two sandwiches, muffins and cookies. Please specify your sandwich preferences. We will make every effort to accommodate, but cannot guarantee, that they will be available at the time of departure. So if you have any dietary restrictions let us know what they are.
 
-Email address: [email]
+[sandwich preference]
 
-Cell phone* number: [cellphone]
-
-*so we can reach you in DC if we get separated, since we would be sad to leave without you!
-
-Choice of Sandwiches (2 per person) for bus trip: 1. [sandwich] 2. [sandwich]
-e.g., 1. Ham and Cheese and 2. Chicken Salad
-
-Name of emergency contact* [name]
-Number of emergency contact [phone]
-
-*IF something should happen to you! e.g., spouse, significant other, parent, etc.
+[name]
+[address]
+[city, state, zip]
+[cell phone number]
+[email address]
 
 _EOR_
 }
