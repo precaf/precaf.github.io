@@ -1,0 +1,599 @@
+<!doctype html>
+<html style='font-size:14px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; border-right-style: none; border-right-color: currentcolor; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: medium; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: currentcolor; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: medium; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.428571rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
+</style><title>keating</title>
+</head>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><h3 id='political-profile-of-rep-william-r-keating'><span>Political Profile of Rep. William R. Keating</span></h3><p><img src="greyscale.jpg" referrerpolicy="no-referrer"></p><h4 id='the-big-picture'><span>The Big Picture</span></h4><p><span>Let&#39;s begin with an unpleasant but glaring truth – nobody is going to easily &quot;flip&quot; Bill Keating&#39;s seat. </span></p><p><span>As the following political profile shows, William R. (&quot;Bill&quot;) Keating has solid numbers at the voting booth, and his </span><a href='https://www.isidewith.com/candidates/bill-keating/ideologies'><span>centrist</span></a><span> positions are exactly what voters in Massachusetts&#39;s oldest, whitest, less-educated, military-friendly Congressional district appear to want. As a long-time member of the House Foreign Affairs Committee, Keating is a major beneficiary of the defense industry&#39;s largesse, but he receives far greater support from organized labor. It&#39;s not clear how the union money spigot could be shut off, but this is the thing that would hurt him the most.</span></p><h4 id='congressional-district-9'><span>Congressional District 9</span></h4><p><a href='https://censusreporter.org/profiles/50000US2509-congressional-district-9-ma/'><span>Massachusetts Congressional District 9</span></a><span> is older and whiter than most of Massachusetts. The median age is 47.3 (20% higher than both US and MA averages) but the mean is 60-69. Likewise, 83% of the district is white (43% higher than the </span><a href='https://www.census.gov/library/stories/2021/08/2020-united-states-population-more-racially-ethnically-diverse-than-2010.html'><span>national</span></a><span> average and 13% higher than the </span><a href='https://statisticalatlas.com/state/Massachusetts/Race-and-Ethnicity'><span>state</span></a><span> average). CD9 is in fact one of the </span><a href='https://statisticalatlas.com/state/Massachusetts/Race-and-Ethnicity'><span>whitest</span></a><span> parts of the state. 9.8% of the District is foreign-born, half the rate in the rest of Massachusetts and two-thirds the rate in the US. 6.4% of the population of CD9 are veterans, 1.5 times the rest of Massachusetts and only slightly higher than the national average. 43.3% of the District has a college degree. This is 20% higher than the national average but 10% less than the state average.</span></p><h4 id='keatings-background'><span>Keating&#39;s background</span></h4><p><span>William R. Keating was born in Norwood, Norfolk County, Massachusetts on September 6, 1952. </span><a href='https://www.govtrack.us/congress/members/william_keating/412435'><span>Keating</span></a><span> received his B.A. from Boston College, Chestnut Hill, Mass. in1974, an M.B.A. from Boston College, Chestnut Hill, Mass. in 1982, and his J.D. from Suffolk University, Boston, Mass. in 1985.  After passing the bar Keating went to work for the law firm Keating &amp; Fishman. Keating was a member of the Massachusetts House of Representatives from 1977-1984, having been elected at the ripe old age of 24. He has been a career politican literally his entire adult life.</span></p><p><span>After Joseph Timility resigned from the state Senate, Keating won his seat, remaining in the state Senate from 1985-1998. Keating ran on a tough anti-crime platform. He also joined the Joint Public Safety Committee, where he wrote a drug sentencing &quot;reform&quot; package which lowered thresholds for possession &quot;with intent to distribute.&quot; Keating&#39;s legislation was pilloried for being both unncessarily draconian and vague. But his voters loved it.</span></p><p><span>Keating then advanced his political careerism as Norfolk County, Mass. District Attorney from 1998-2010. Upon taking his oath of office, a third of the Norfolk DA staff either resigned or was fired. He served two terms as DA.</span></p><p><span>In 2011 Keating was elected as a Democrat to U.S. Congress, where he remains today. He is considered a typical &quot;Massachusetts liberal&quot; and in the 118th Congress </span><a href='https://projects.fivethirtyeight.com/biden-congress-votes/house/'><span>Keating voted with President Joe Biden</span></a><span> 100% of the time. Keating&#39;s 2022 election cost him </span><a href='https://www.opensecrets.org/races/summary?cycle=2022&amp;id=MA09'><span>$1.36 million</span></a><span> and he won </span><a href='https://www.nytimes.com/interactive/2022/11/08/us/elections/results-massachusetts-us-house-district-9.html'><span>59.2%</span></a><span> of the vote, beating Republican challenger Jesse Brown. Keating enjoys donor support from not only defense contractors who benefit from his votes in Congress, but receives support from numerous Massachusetts unions.</span></p><p><span>Keating sits on the </span><a href='https://www.govtrack.us/congress/committees/HSFA'><span>House Committee on Foreign Affairs</span></a><span> and the </span><a href='https://www.govtrack.us/congress/committees/HSAS'><span>House Committee on Armed Services</span></a><span>, including the Armed Services </span><a href='https://www.govtrack.us/congress/committees/HSAS/26'><span>Subcommittee on Intelligence and Special Operations</span></a><span>.</span></p><p><span>In the current (119th) Congress, Keating has </span><a href='https://www.govtrack.us/congress/bills/browse?sponsor=412435'><span>sponsored a number of bills and resolutions</span></a><span>, many related to Russia and Ukraine. </span><em><span>See Keating&#39;s full list of sponsored legislation at the end of this report.</span></em></p><h4 id='foreign-policy'><span>Foreign Policy</span></h4><p><span>Politically, Keating is liberal on most </span><a href='https://www.isidewith.com/candidates/bill-keating/policies'><span>domestic issues</span></a><span>. However, when it comes to foreign policy, Keating is a pro-NATO, &quot;anti-terror&quot; war hawk who voted to expand both the Patriot Act and the Foreign Intelligence Surveillance Act. Keating has worked on providing Ukraine with </span><a href='https://foreignaffairs.house.gov/press-release/mccaul-kean-wilson-keating-lieu-golden-introduce-bipartisan-resolution-urging-immediate-transfer-of-atacms-to-ukraine/'><span>more weapons</span></a><span> and on legislation to </span><a href='https://keating.house.gov/policy-work/issues/foreign-affairs'><span>sanction</span></a><span> Russia and Russian parliamentarians. He has lobbied the EU to have Iran </span><a href='https://manning.house.gov/media/press-releases/manning-kean-keating-lead-bipartisan-coalition-urging-eu-designate-irans'><span>classified</span></a><span> as a sponsor of state terror and advocated imposing additional </span><a href='https://mccaul.house.gov/media-center/press-releases/mccaul-keating-strengthen-iran-sanctions-to-target-the-qods-force'><span>sanctions</span></a><span> on it. When Donald Trump ordered the </span><a href='https://www.wbur.org/radioboston/2020/01/03/massachusetts-congressional-delegation-reacts-qassem-soleimani-death'><span>assassination</span></a><span> of Iranian General Qassim Soleimani, Keating told Radio Boston it was indeed a US &quot;escalation&quot; but no one was going to mourn the death of a war criminal.</span></p><p><span>In keeping with Keating&#39;s across-the-aisle militarism and adventurism, he signed a resolution sponsored by far-right Florida Congresswoman Ileana Ros-Lehtinen in behalf of the Falun Gong, which claimed that Chinese political prisoners from the religious community were having their organs harvested by China. These claims were </span><a href='https://www.washingtonpost.com/world/asia_pacific/in-the-face-of-criticism-china-has-been-cleaning-up-its-organ-transplant-industry/2017/09/14/d689444e-e1a2-11e6-a419-eefe8eff0835_story.html'><span>debunked</span></a><span> by the Washington Post and denied by lawyers from the Falun Gong itself. </span></p><p><span>Keating&#39;s Foreign Policy webpage describes him as a &quot;staunch advocate of human rights and freedom of expression and press.&quot;</span></p><h4 id='israel-palestine'><span>Israel-Palestine</span></h4><p><span>After October 7th, Keating </span><a href='https://www.wgbh.org/news/politics/2023-10-17/where-the-mass-congressional-delegation-stands-on-the-crisis-in-israel-and-gaza'><span>condemned</span></a><span> Hamas&#39;s &quot;senseless terrorist attacks&quot; and promised Israel that America had its back. He pooh-poohed any dissention among Democrats over President Biden&#39;s immediate military aid, telling the Bostong Globe that the &quot;vast majority&quot; of Democrats support Joe Biden&#39;s stance on helping Israel bomb Gaza.</span></p><p><span>Rep. Keating has never sponsored legislation with the words &quot;Palestine&quot; or &quot;Palestinian&quot; in it. Only one of his resolutions, </span><a href='https://www.govtrack.us/congress/bills/118/hres872'><span>H.Res.872</span></a><span>, which appears to have been authored by the ADL, refers to contemporary Israel. Two other co-sponsored bills commemorate the </span><a href='https://www.govtrack.us/congress/bills/118/hr1299'><span>Warsaw Ghetto Uprising</span></a><span>, in which Jews built bunkers, smuggled in weapons, and fought the Nazis who had locked them into a section of Warsaw turned into a concentration camp. Otherwise Keating is focused on Europe, particularly Russia and Ukraine.</span></p><h4 id='donors'><span>Donors</span></h4><p><span>OpenSecrets tracks Congressional donors. Of the thousands of </span><a href='https://www.opensecrets.org/address/mydistrict?id=N00031933'><span>donors to Keating&#39;s campaigns</span></a><span> between 2015 and 202, two defense contractors appear in hi top 20 donors – BAE Systems and Raytheon. Two pro-Israel lobby groups also show up – JStreet and AIPAC. Both AIPAC and BAE are tied for fourth place. </span></p><p><span>It is troubling that so much of Keating&#39;s support comes from organized labor. However, Keating&#39;s domestic policies are much more liberal than his foreign policies. Ignoring what goes on in the rest of the world, organized labor has largely viewed the Democratic Party as a partner in transactional politics. This philosophy seems to be changing, but the union movement is still quite conservative overall.</span></p><figure class='table-figure'><table><thead><tr><th style='text-align:right;' ><span>Rank</span></th><th><span>Contributor</span></th><th style='text-align:right;' ><span>Total</span></th><th style='text-align:right;' ><span>Indivs</span></th><th style='text-align:right;' ><span>Pacs</span></th></tr></thead><tbody><tr><td style='text-align:right;' ><span>1</span></td><td><span>Democracy Engine</span></td><td style='text-align:right;' ><span>$15,500.00</span></td><td style='text-align:right;' ><span>$15,500.00</span></td><td style='text-align:right;' ><span>$0.00</span></td></tr><tr><td style='text-align:right;' ><span>2</span></td><td><span>Thornton Law Firm</span></td><td style='text-align:right;' ><span>$12,600.00</span></td><td style='text-align:right;' ><span>$12,600.00</span></td><td style='text-align:right;' ><span>$0.00</span></td></tr><tr><td style='text-align:right;' ><span>3</span></td><td><strong><span>JStreetPAC</span></strong></td><td style='text-align:right;' ><span>$10,600.00</span></td><td style='text-align:right;' ><span>$8,100.00</span></td><td style='text-align:right;' ><span>$2,500.00</span></td></tr><tr><td style='text-align:right;' ><span>4</span></td><td><span>American Federation of State/Cnty/Munic Employees</span></td><td style='text-align:right;' ><span>$10,000.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$10,000.00</span></td></tr><tr><td style='text-align:right;' ><span>4</span></td><td><strong><span>American Israel Public Affairs Cmte</span></strong></td><td style='text-align:right;' ><span>$10,000.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$10,000.00</span></td></tr><tr><td style='text-align:right;' ><span>4</span></td><td><strong><span>BAE Systems</span></strong></td><td style='text-align:right;' ><span>$10,000.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$10,000.00</span></td></tr><tr><td style='text-align:right;' ><span>4</span></td><td><span>Laborers Union</span></td><td style='text-align:right;' ><span>$10,000.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$10,000.00</span></td></tr><tr><td style='text-align:right;' ><span>4</span></td><td><span>Nelson, Mullins et al</span></td><td style='text-align:right;' ><span>$10,000.00</span></td><td style='text-align:right;' ><span>$2,000.00</span></td><td style='text-align:right;' ><span>$8,000.00</span></td></tr><tr><td style='text-align:right;' ><span>4</span></td><td><span>Operating Engineers Union</span></td><td style='text-align:right;' ><span>$10,000.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$10,000.00</span></td></tr><tr><td style='text-align:right;' ><span>4</span></td><td><span>Plumbers/Pipefitters Union</span></td><td style='text-align:right;' ><span>$10,000.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$10,000.00</span></td></tr><tr><td style='text-align:right;' ><span>4</span></td><td><span>Teamsters Union</span></td><td style='text-align:right;' ><span>$10,000.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$10,000.00</span></td></tr><tr><td style='text-align:right;' ><span>4</span></td><td><span>United Parcel Service</span></td><td style='text-align:right;' ><span>$10,000.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$10,000.00</span></td></tr><tr><td style='text-align:right;' ><span>13</span></td><td><span>National Assn of Realtors</span></td><td style='text-align:right;' ><span>$8,000.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$8,000.00</span></td></tr><tr><td style='text-align:right;' ><span>14</span></td><td><span>Cape Cod Healthcare</span></td><td style='text-align:right;' ><span>$7,950.00</span></td><td style='text-align:right;' ><span>$7,950.00</span></td><td style='text-align:right;' ><span>$0.00</span></td></tr><tr><td style='text-align:right;' ><span>15</span></td><td><span>American Crystal Sugar</span></td><td style='text-align:right;' ><span>$7,500.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$7,500.00</span></td></tr><tr><td style='text-align:right;' ><span>15</span></td><td><span>American Federation of Teachers</span></td><td style='text-align:right;' ><span>$7,500.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$7,500.00</span></td></tr><tr><td style='text-align:right;' ><span>15</span></td><td><span>National Beer Wholesalers Assn</span></td><td style='text-align:right;' ><span>$7,500.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$7,500.00</span></td></tr><tr><td style='text-align:right;' ><span>15</span></td><td><strong><span>Raytheon Technologies</span></strong></td><td style='text-align:right;' ><span>$7,500.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$7,500.00</span></td></tr><tr><td style='text-align:right;' ><span>15</span></td><td><span>Sheet Metal, Air, Rail &amp; Transportation Union</span></td><td style='text-align:right;' ><span>$7,500.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$7,500.00</span></td></tr><tr><td style='text-align:right;' ><span>15</span></td><td><span>United Food &amp; Commercial Workers Union</span></td><td style='text-align:right;' ><span>$7,500.00</span></td><td style='text-align:right;' ><span>$0.00</span></td><td style='text-align:right;' ><span>$7,500.00</span></td></tr></tbody></table></figure><p><span>According to the </span><a href='https://www.fec.gov/data/receipts/?data_type=processed&amp;committee_id=C00479063&amp;line_number=F3-11C'><span>Federal Election Commission</span></a><span>, Keating took money from defense contractors BAE, Boeing, General Dynamics, General Electric, L3 Harris, Lockheed-Martin, Northrop Grumman, OSI Systems, and RTX/Raytheon. The American Friends Service Committee&#39; </span><a href='https://investigate.info/all-companies'><span>Investigate</span></a><span> project has researched the role of each in either the </span><a href='https://afsc.org/companies-2023-attack-gaza'><span>carpet bombing of Gaza</span></a><span> or corporate </span><a href='https://investigate.info/all-companies'><span>complicity</span></a><span> in Israel&#39;s occupation and Apartheid system. </span></p><figure class='table-figure'><table><thead><tr><th><span>Contractor</span></th><th><span>Role in Gaza genocide (AFSC)</span></th></tr></thead><tbody><tr><td><a href='https://investigate.info/company/bae-systems'><span>BAE</span></a></td><td><span>The world’s seventh largest weapons manufacturer, UK company </span><a href='https://investigate.info/company/bae-systems'><span>BAE Systems</span></a><span> manufactures the M109 howitzer, a 155mm mobile artillery system that the Israeli military </span><a href='https://www.jpost.com/israel-news/defense-news/article-774833'><span>has been using extensively</span></a><span>, firing tens of thousands of 155mm shells into the Gaza Strip. Some of these shells are </span><a href='https://citizenevidence.org/2023/10/13/israel-opt-identifying-the-israeli-armys-use-of-white-phosphorus-in-gaza/'><span>white phosphorus bombs</span></a><span>, the use of which is </span><a href='https://www.hrw.org/news/2023/10/12/israel-white-phosphorus-used-gaza-lebanon'><span>forbidden</span></a><span> in densely populated civilian areas and potentially amounts to a war crime. BAE also </span><a href='https://investigate.info/company/bae-systems'><span>manufactures</span></a><span> electronic missile launching kits and other components for Israel’s  F-15, F-16, and F-35 fighter jets, which the Israeli Air Force has used  extensively in all of its attacks on Gaza, including in 2023. For more information on this company (not including these latest developments) see our </span><a href='https://investigate.info/company/bae-systems'><span>company profile</span></a><span> on the Investigate database.</span></td></tr><tr><td><a href='https://investigate.info/company/boeing'><span>Boeing</span></a></td><td><span>The world&#39;s fifth largest weapons manufacturer, Boeing manufactures F-15 fighter jets and Apache AH-64 attack helicopters, which the  Israeli Air Force has used extensively in all of its attacks on Gaza and Lebanon, including in 2023. Boeing also manufactures multiple types of unguided small diameter  bombs (SDBs) and Joint Direct Attack Munition (JDAM) kits, which convert these bombs into precision-guided munitions.  Israel has been using these bombs extensively, including in a </span><a href='https://www.theguardian.com/world/2023/nov/01/jabalia-camp-airstrike-gaza'><span>Nov. 1 bombing</span></a><span> of Gaza’s Jabalia refugee camp, which killed hundreds of Palestinian civilians and </span><a href='https://www.aljazeera.com/news/2023/11/2/un-rights-office-says-israeli-attacks-on-jabalia-could-be-war-crime'><span>could amount to a war crime</span></a><span>, according to the UN High Commissioner for Human Rights. On Oct. 10 and 22, the Israeli military used bombs equipped with Boeing JDAM kits to carry out what </span><a href='https://www.amnesty.org/en/latest/news/2023/12/israel-opt-us-made-munitions-killed-43-civilians-in-two-documented-israeli-air-strikes-in-gaza-new-investigation/'><span>Amnesty International</span></a><span> calls &quot;unlawful air strikes on homes full of civilians in the occupied  Gaza Strip.&quot; The attacks, which could amount to a war crime, killed 24  people of the al-Najjar family and 19 people of the Abu Mu&#39;eileq family. Immediately after Oct. 7, Boeing </span><a href='https://www.bloomberg.com/news/articles/2023-10-10/boeing-sped-1-000-smart-bombs-to-israel-after-the-hamas-attacks'><span>expedited</span></a><span> delivery of 1,000 smart bombs, and </span><a href='https://www.bloomberg.com/news/articles/2023-10-18/boeing-accelerates-delivery-of-up-to-1-800-gps-guidance-bomb-kits-to-israel?embedded-checkout=true'><span>another</span></a><span> 1,800 JDAM kits, to Israel. Both deliveries were part of a 2021 order  that Israel made during its previous large-scale attack on Gaza. Headquartered in Chicago, the company has important production  facilities outside of Los Angeles, Seattle, and St. Louis. For more  locations, see </span><a href='https://thebusinessofwar.substack.com/p/mapping-the-business-of-war'><span>this map</span></a><span>. For more information on this company (not including these latest developments), see our </span><a href='https://investigate.info/company/boeing'><span>company profile</span></a><span> on the Investigate database.</span></td></tr><tr><td><a href='https://investigate.info/company/general-dynamics'><span>General Dynamics</span></a></td><td><span>The world&#39;s sixth largest weapons manufacturer, </span><a href='https://investigate.afsc.org/company/general-dynamics'><span>General Dynamics</span></a><span>, supplies Israel with artillery ammunition and bombs for attack jets used in Israel’s assault on Gaza. The company developed the F-16 fighter jet, although it has been manufactured by Lockheed Martin since 1993. General Dynamics is the </span><a href='https://www.wsws.org/en/articles/2023/11/09/htsr-n09.html'><span>only company</span></a><span> in the U.S. that makes the metal bodies of the MK-80 bomb series, the  primary weapon type Israel uses to bomb Gaza. The bodies of the bombs  are filled with explosives by the U.S. military, and then can be made  into a guided bomb using </span><a href='https://investigate.info/company/boeing'><span>Boeing</span></a><span>&#39;s JDAM kits. It is also the </span><a href='https://www.pbs.org/newshour/nation/long-war-in-ukraine-highlights-need-for-u-s-army-to-modernize-ammo-production'><span>only company</span></a><span> in the U.S. that makes 155mm caliber artillery shells, which have been  used extensively to attack Gaza. One source reported that, by Nov. 25,  one Israeli brigade fired some 10,000 such shells using BAE’s M109  howitzer. 155mm shells</span><a href='https://www.defense.gov/News/News-Stories/Article/Article/3563298/dod-responds-to-attacks-continues-efforts-to-deter-spread-of-israel-hamas-war/'><span> have been part</span></a><span> of the U.S.’s recent weapons shipments to Israel. The U.S. is </span><a href='https://www.axios.com/2023/10/19/us-israel-artillery-shells-ukraine-weapons-gaza'><span>planning</span></a><span> to send “tens of thousands of 155mm artillery shells that had been destined for Ukraine” to Israel. Their use by Israel, </span><a href='https://webassets.oxfamamerica.org/media/documents/Artillery_Shells_Transver_Policy_BriefingNote_1.pdf'><span>according to Oxfam</span></a><span>, is “virtually assured to be indiscriminate, unlawful, and devastating  to civilians in Gaza.” On Nov. 13, more than 30 organizations </span><a href='https://pomed.org/publication/joint-letter-to-secretary-of-defense-lloyd-austin-opposing-155mm-artillery-shell-transfer-to-israel/'><span>issued</span></a><span> a letter opposing the transfer. General Dynamics also </span><a href='https://www.gd-ots.com/flyer-72-tactical-utility-vehicle-tuv/'><span>partnered</span></a><span> with Flyer Defense (see above) to develop an armored patrol vehicle that Israel is testing. On an Oct. 25 call with investors, General Dynamics CFO, Jason Aiken, </span><a href='https://www.theguardian.com/world/2023/oct/30/wall-street-morgan-stanley-td-bank-ukraine-israel-hamas-war'><span>said</span></a><span>, “I think if you look at the incremental demand potential coming out of  [the attacks on Gaza], the biggest one to highlight and that really  sticks out is probably on the artillery side.” General Dynamics is based outside of Washington, D.C., in Fairfax, Virginia. For more locations, see </span><a href='https://thebusinessofwar.substack.com/p/mapping-the-business-of-war'><span>this map</span></a><span>. For more information on this company (not including these latest developments), see our </span><a href='https://investigate.info/company/general-dynamics'><span>company profile</span></a><span> on the Investigate database.</span></td></tr><tr><td><a href='https://investigate.info/company/general-electric'><span>General Electric</span></a></td><td><span>The world&#39;s 25th largest weapons manufacturer, </span><a href='https://investigate.afsc.org/company/general-electric'><span>General Electric</span></a><span> </span><a href='https://www.geaerospace.com/propulsion/military/t700'><span>manufactures</span></a><span> T700 Turboshaft engines for </span><a href='https://investigate.info/company/boeing'><span>Boeing</span></a><span>’s Apache helicopters. GE is headquartered in Fairfield, Connecticut. For more information on this company (not including these latest developments), see our </span><a href='https://investigate.info/company/general-electric'><span>company profile</span></a><span> on the Investigate database.</span></td></tr><tr><td><a href='https://investigate.info/company/l3harris-technologies'><span>L3 Harris</span></a></td><td><span>The world&#39;s ninth largest weapons manufacturer, </span><a href='https://investigate.info/company/l3harris-technologies'><span>L3Harris</span></a><span> manufactures components that are integrated into multiple weapons systems used by the Israeli military in Gaza, including </span><a href='https://investigate.afsc.org/company/boeing'><span>Boeing</span></a><span>&#39;s JDAM kits (see above), </span><a href='https://investigate.afsc.org/company/lockheed-martin'><span>Lockheed Martin</span></a><span>’s F-35 warplane (see below), </span><a href='https://investigate.afsc.org/company/northrop-grumman'><span>Northrop Grumman</span></a><span>&#39;s Sa’ar 5 warships (see below), ThyssenKrupp&#39;s Sa’ar 6 warships (see below), and Israel&#39;s Merkava battle tanks. For more information on this company (not including these latest developments), see our </span><a href='https://investigate.info/company/l3harris-technologies'><span>company profile</span></a><span> on the Investigate database.</span></td></tr><tr><td><a href='https://investigate.info/company/lockheed-martin'><span>Lockheed-Martin</span></a></td><td><span>The world’s largest weapons manufacturer, </span><a href='https://investigate.afsc.org/company/lockheed-martin'><span>Lockheed Martin</span></a><span> supplies Israel with F-16 and F-35 fighter jets, which Israel has been  using extensively to bomb Gaza. Israel also uses the company’s C-130  Hercules transport planes to support the ground invasion of Gaza. Lockheed Martin manufactures AGM-114 Hellfire missiles for Israel’s Apache helicopters. One of the main weapon types used in aerial attacks on Gaza, these missiles have been used extensively in 2023. Some 2,000  Hellfire missiles were </span><a href='https://www.bloomberg.com/news/articles/2023-11-14/pentagon-is-quietly-sending-israel-ammunition-laser-guided-missiles?embedded-checkout=true'><span>delivered</span></a><span> to Israel sometime between Oct. 7 and Nov. 14. On Dec. 28, Lockheed Martin was </span><a href='https://www.defense.gov/News/Contracts/Contract/Article/3627836/'><span>awarded</span></a><span> a $10.5 million contract for continued support for Israel&#39;s fleet of F-35 warplanes. On Dec. 11, the Israeli Air Force </span><a href='https://israeldefense.co.il/node/60572'><span>used</span></a><span> a Lockheed Martin C-130-J Super Hercules aircraft to drop approximately  seven tons of equipment to Israeli soldiers engaging in ground attacks  in Khan Younis, located in the southern Gaza Strip. This was the &quot;first  operational airdrop&quot; that Israel has carried out since the 2006 Lebanon  War. On Nov. 9, an Israeli missile hit journalists sitting near Shifa Hospital in Gaza City. The missile was </span><a href='https://www.youtube.com/watch?v=0zJTz52X9lg'><span>reportedly</span></a><span> a Lockheed Martin–made Hellfire R9X missile, a version of the Hellfire  that was developed by the CIA for carrying out assassinations. Instead  of exploding, the missile shreds its target using blades, allowing for a direct hit without collateral damage. The target in this case was not a military one. The Israeli military also uses Lockheed Martin’s M270 Multiple Launch Rocket System (MLRS). Used to fire </span><a href='https://investigate.info/company/elbit-systems'><span>Elbit Systems</span></a><span>’ high-precision AccuLAR-122, the weapon was used by Israel for the </span><a href='https://www.timesofisrael.com/liveblog_entry/idf-multiple-rocket-launcher-used-to-target-hamas-in-gaza-for-first-time-since-2006/'><span>first time</span></a><span>, since the 2006 war in Lebanon, on Oct. 6, according to the Israeli military. On an Oct. 17 call with investors, Lockheed Martin CEO, Jim Taiclet, “</span><a href='https://www.cnn.com/2023/10/18/investing/premarket-stocks-trading/index.html'><span>highlighted</span></a><span> the Israel and Ukraine conflicts as potential drivers for increased revenue in the coming years.” Lockheed Martin is headquartered in Bethesda, Maryland, and has key production sites in Denver, Houston, New Orleans, and San Diego. For  more locations, see </span><a href='https://thebusinessofwar.substack.com/p/mapping-the-business-of-war'><span>this map</span></a><span>. For more information on this company (not including these latest developments), see our </span><a href='https://investigate.info/company/lockheed-martin'><span>company profile</span></a><span> on the Investigate database.</span></td></tr><tr><td><a href='https://investigate.info/company/northrop-grumman'><span>Northrop Grumman</span></a></td><td><span>The world&#39;s sixth largest weapons manufacturer, </span><a href='https://investigate.afsc.org/company/northrop-grumman'><span>Northrop Grumman</span></a><span> supplies the Israeli Air Force with the Longbow missile delivery system for its Apache attack helicopters and laser weapon delivery systems for its fighter jets. It has also supplied the Israeli Navy with Sa&#39;ar 5 warships, which have participated in the assault on Gaza. On Dec. 15, Northrop Grumman was </span><a href='https://www.defense.gov/News/Contracts/Contract/Article/3619589/'><span>awarded</span></a><span> an $8.9 million contract for 30mm MK44 Stretch cannons for the Israeli  military, funded by U.S. taxpayers&#39; money. The weapons will be  manufactured in Mesa, Arizona, with an expected completion date of March 2025. Israel uses these guns on its Namer Armored Personnel Carrier,  which has been used extensively in Gaza. Northrop Grumman is headquartered in Falls Church, Virginia, and  its most important production sites are located in and around Baltimore, Denver, Los Angeles, and San Diego. For more locations, see </span><a href='https://thebusinessofwar.substack.com/p/mapping-the-business-of-war'><span>this map</span></a><span>. For more information on this company (not including these latest developments), see our </span><a href='https://investigate.info/company/northrop-grumman'><span>company profile</span></a><span> on the Investigate database.</span></td></tr><tr><td><a href='https://investigate.info/company/osi-systems'><span>OSI Systems</span></a></td><td><span>Israel has installed OSI scanners in several of its illegal military checkpoints in the occupied West Bank and Gaza Strip. </span><a href='https://www.whoprofits.org/company/ase-american-science-and-engineering/'><span>According to Who Profits</span></a><span>, as of 2020, Rapiscan scanning machines and full body scanners are </span><a href='https://whoprofits.org/company/rapiscan-systems/'><span>installed</span></a><span> at three military checkpoints in the occupied West Bank, as well as at the entrance to the Western Wall area in occupied East Jerusalem. This  equipment is provided through OSI&#39;s exclusive representative in Israel, </span><a href='https://investigate.info/company/g1-secure-solutions'><span>G1 Secure Solutions</span></a><span> (formerly G4S Israel).</span></td></tr><tr><td><a href='https://investigate.info/company/rtx'><span>RTX / Raytheon</span></a></td><td><span>In addition, since 2016, Rapiscan metal detectors have been </span><a href='https://www.whoprofits.org/company/ase-american-science-and-engineering/'><span>installed</span></a><span> at 10 offices operated by the District Coordination and Liaison Offices  (DCO), a unit of the Israeli Ministry of Defense that administers the  civilian aspects of the military occupation of the West Bank, such as  issuing travel permits to Palestinians.The world&#39;s second largest weapons manufacturer and largest producer of guided missiles, </span><a href='https://investigate.afsc.org/company/raytheon-technologies'><span>RTX</span></a><span> supplies the Israeli Air Force with guided air-to-surface missiles for  its F-16 fighter jets, as well as cluster bombs and bunker busters,  which have consistently been used against Gaza&#39;s civilian population and infrastructure. RTX subsidiary Pratt &amp; Whitney manufactures engines for F-15 and F-16 fighter jets. As part of a joint venture with Israeli state-owned weapons  manufacturer Rafael, RTX makes interceptors for Israel’s Iron Dome air  defense system, which </span><a href='https://www.defense.gov/News/Speeches/Speech/Article/3556833/remarks-by-secretary-of-defense-lloyd-j-austin-iii-at-a-joint-press-conference/'><span>have been part</span></a><span> of the U.S.’s recent weapons shipments to Israel. On an Oct. 24 call with investors, RTX CEO, Greg Hayes, </span><a href='https://www.businessinsider.com/raytheon-ceo-benefit-dod-budget-increases-war-israel-2023-10'><span>said</span></a><span>, “I think really across the entire Raytheon portfolio, you&#39;re going to see a benefit of this restocking.” RTX moved is headquarters from Waltham, Massachusetts to Arlington, Virginia in 2022. For more locations, see </span><a href='https://thebusinessofwar.substack.com/p/mapping-the-business-of-war'><span>this map</span></a><span>. For more information on this company (not including these latest developments), see our </span><a href='https://investigate.info/company/rtx'><span>company profile</span></a><span> on the Investigate database.</span></td></tr></tbody></table></figure><p><span>Like Keating&#39;s donations from unions, he has received money from the Human Rights Campaign PAC, a group with an LGBTQ+ focus, and NARAL PAC, which has a reproductive rights focus. And like the Democratic Party, the center of gravity for both unions and liberal causes, many progressive organizations apparently can&#39;t see beyond the borders of the United States.</span></p><h4 id='israel-lobby'><span>Israel Lobby</span></h4><p><span>According to </span><a href='https://www.opensecrets.org/industries/summary?code=Q05&amp;cycle=All&amp;ind=Q05&amp;mem=Y&amp;recipdetail=H'><span>OpenSecrets</span></a><span> Keating has received a total of $26,395 from pro-Israel lobbies (mainly AIPAC and JStreet) since entering Congress. For context, the average of 1404 (past and present Congressional) lifetime Israel lobby donations is a shocking $93,450. On average, Massachusetts Congresspeople received average lifetime totals of $51,740.</span></p><p><span>As things go, Keating is hardly the worst offender. The suprise in the numbers is now-Senator Ed Markey. As a Representative he received considerable money from AIPAC.</span></p><figure class='table-figure'><table><thead><tr><th><span>Massachusetts Representative</span></th><th style='text-align:right;' ><span>Total pro-Israel receipts</span></th></tr></thead><tbody><tr><td><span>Auchincloss, Jake</span></td><td style='text-align:right;' ><span>$261,761</span></td></tr><tr><td><span>Clark, Katherine</span></td><td style='text-align:right;' ><span>$230,549</span></td></tr><tr><td><span>Markey, Ed</span></td><td style='text-align:right;' ><span>$137,171</span></td></tr><tr><td><span>Kennedy, Joe III</span></td><td style='text-align:right;' ><span>$97,067</span></td></tr><tr><td><span>Neal, Richard E</span></td><td style='text-align:right;' ><span>$84,300</span></td></tr><tr><td><span>Moulton, Seth</span></td><td style='text-align:right;' ><span>$61,636</span></td></tr><tr><td><span>McGovern, James P</span></td><td style='text-align:right;' ><span>$56,725</span></td></tr><tr><td><span>Trahan, Lori</span></td><td style='text-align:right;' ><span>$41,688</span></td></tr><tr><td><span>Capuano, Michael E</span></td><td style='text-align:right;' ><span>$27,500</span></td></tr><tr><td><span>Frank, Barney</span></td><td style='text-align:right;' ><span>$27,324</span></td></tr><tr><td><span>Kennedy, Joseph P II</span></td><td style='text-align:right;' ><span>$26,600</span></td></tr><tr><td><span>Keating, Bill</span></td><td style='text-align:right;' ><span>$26,395</span></td></tr><tr><td><span>Olver, John W</span></td><td style='text-align:right;' ><span>$21,250</span></td></tr><tr><td><span>Tsongas, Niki</span></td><td style='text-align:right;' ><span>$14,200</span></td></tr><tr><td><span>Blute, Peter (Republican)</span></td><td style='text-align:right;' ><span>$9,000</span></td></tr><tr><td><span>Conte, Silvio (Republican)</span></td><td style='text-align:right;' ><span>$5,000</span></td></tr><tr><td><span>Moakley Joe</span></td><td style='text-align:right;' ><span>$3,050</span></td></tr><tr><td><span>Mavroules, Nicholas</span></td><td style='text-align:right;' ><span>$2,550</span></td></tr><tr><td><span>Tierney, John F</span></td><td style='text-align:right;' ><span>$2,000</span></td></tr><tr><td><span>Atkins, Chester Greenough</span></td><td style='text-align:right;' ><span>$1,500</span></td></tr><tr><td><span>Studds, Gerry E</span></td><td style='text-align:right;' ><span>$1,000</span></td></tr><tr><td><span>Pressley, Ayanna</span></td><td style='text-align:right;' ><span>$5</span></td></tr><tr><td>&nbsp;</td><td style='text-align:right;' >&nbsp;</td></tr><tr><td><span>Average</span></td><td style='text-align:right;' ><span>$51,740</span></td></tr></tbody></table></figure><h4 id='organized-labor'><span>Organized Labor</span></h4><p><span>In terms of the scope of Keating&#39;s donations from unions, our members should really study the </span><a href='https://www.fec.gov/data/receipts/?data_type=processed&amp;committee_id=C00479063&amp;line_number=F3-11C'><span>FEC database</span></a><span>. </span><strong><span>If Keating has one obvious vulnerability it is the uncritical support he receives from organized labor.</span></strong></p><h4 id='keatings-personal-investments'><span>Keating&#39;s Personal Investments</span></h4><p><span>In October 2023 RAWStory investigators Dave Levinthal and Alexandria Jacobson published an </span><a href='https://www.rawstory.com/raw-investigates/stock-act-congress-william-keating/'><span>article</span></a><span>, &quot;Busted: Dem lawmaker with military oversight is playing the market with a military supplier.&quot; The Democratic lawmaker was William F. Keating and the defense contractor was Boeing.</span></p><p><span> In a House financial </span><a href='https://www.documentcloud.org/documents/24016401-rep-bill-keating-financial-disclosure'><span>disclosure</span></a><span> filed the previous month, Keating reported he had purchased up to $50,000 of stocks in Boeing and $848.75 in Caterpillar. Boeing manufactures the Joint Direct Attack Munitions (</span><a href='https://www.military.com/equipment/joint-direct-attack-munition-jdam'><span>JDAMs</span></a><span>) that have been used extensively in Gaza, while Caterpillar notoriously and in flagrant </span><a href='https://ccrjustice.org/home/get-involved/tools-resources/fact-sheets-and-faqs/factsheet-home-demolitions-and-caterpillar'><span>violation</span></a><span> of international law provides demolition equipment used to destroy Palestinian homes and infrastructure. Readers may recall that Rachel Corrie was a US activist who was crushed to death by a militarized Caterpillar D9 bulldozer in 2003 when she attempted to block the destruction of a Palestinian home with people still inside it.</span></p><p><span>When asked about Keating&#39;s investments, a spokesperson said that they &quot;do not influence the congressman&#39;s policy positions.&quot; But Jessica Tillipman, associate dean for government procurement law studies at The George Washington University, described Keating’s investments as a “raging conflict of interest.”</span></p><h4 id='legislation'><span>Legislation</span></h4><p><span>Keating has either sponsored or co-sponsored the following legislation throughout his time in Congress:</span></p><ul><li><p><a href='https://www.govtrack.us/congress/bills/118/hr3911'><span>H.R. 3911: Ukrainian Adjustment Act of 2023</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hr2560'><span>H.R. 2560: Sea Turtle Rescue Assistance Act of 2023</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hr1809'><span>H.R. 1809: Block the Use of Transatlantic Technology in Iranian Made Drones Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hr1680'><span>H.R. 1680: Black Sea Security Act of 2023</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hr1299'><span>H.R. 1299: Heroes of the Warsaw Ghetto Congressional Gold Medal Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hr1132'><span>H.R. 1132: Transparent and Accessible Sanctions Coordinating Office Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hr294'><span>H.R. 294: Non-Recognition of Russian Annexation of Ukrainian Territory Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hr295'><span>H.R. 295: To prohibit the use of Federal funds to support or facilitate the participation of the Russian Federation in the Group of Seven, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr9511'><span>H.R. 9511 (117th): Black Sea Security Act of 2022</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr9104'><span>H.R. 9104 (117th): Heroes of the Warsaw Ghetto Congressional Gold Medal Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr9059'><span>H.R. 9059 (117th): Non-Recognition of Russian Annexation of Ukrainian Territory Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr8532'><span>H.R. 8532 (117th): ACRA Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr8308'><span>H.R. 8308 (117th): To require the Secretary of the Air Force to submit a report to the Committee on Armed Services of the House of Representatives on a plan to characterize the asbestos risk of former Air Force defense sites, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr7918'><span>H.R. 7918 (117th): Sea Turtle Rescue Assistance Act of 2022</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr7650'><span>H.R. 7650 (117th): International Press Freedom Act of 2022</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr7312'><span>H.R. 7312 (117th): To prohibit the use of Federal funds to support or facilitate the participation of the Russian Federation in the Group of Seven, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr6984'><span>H.R. 6984 (117th): Ukraine Humanitarian Support Act of 2022</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr6842'><span>H.R. 6842 (117th): To provide for the imposition of sanctions on members of parliament of the Russian Federation who voted on February 15, 2022, in favor of the appeal to President Vladimir Putin to recognize the regions of Donetsk and Luhansk in southea</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr6813'><span>H.R. 6813 (117th): To direct the Secretary of Health and Human Services, acting through the Director of the National Institutes of Health, to conduct a study on the neurological impacts of COVID-19 on individuals with a neurological disease.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr6611'><span>H.R. 6611 (117th): To authorize the Government of France to establish a commemorative work in the District of Columbia and its environs to honor the extraordinary contributions of Jean Monnet to restoring peace between European nations and establishing t</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr2888'><span>H.R. 2888 (117th): Rapid Response to Climate Impacts Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr2887'><span>H.R. 2887 (117th): Global Climate Change Diplomacy Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr1301'><span>H.R. 1301 (117th): To direct the Inspector General of the Department of Defense and the Comptroller General of the United States to submit to Congress reports regarding white supremacy in the Armed Forces.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr1142'><span>H.R. 1142 (117th): ESCAPE Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr998'><span>H.R. 998 (117th): Offshore Wind Jobs and Opportunity Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr817'><span>H.R. 817 (117th): To extend the authorization for the Cape Cod National Seashore Advisory Commission.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hr402'><span>H.R. 402 (117th): CROOK Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr8742'><span>H.R. 8742 (116th): To extend the availability of amounts under the Coronavirus Relief Fund.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr8047'><span>H.R. 8047 (116th): DUAL IG Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr7215'><span>H.R. 7215 (116th): Civil Deployment Notification Act of 2020</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr4097'><span>H.R. 4097 (116th): Afghan Women’s Inclusion in Negotiations Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr3843'><span>H.R. 3843 (116th): Countering Russian and Other Overseas Kleptocracy Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr3068'><span>H.R. 3068 (116th): Offshore Wind Jobs and Opportunity Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr313'><span>H.R. 313 (116th): To authorize the Secretary of the Interior to carry out a land exchange involving lands within the boundaries of the Cape Cod National Seashore, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr312'><span>H.R. 312 (116th): Mashpee Wampanoag Tribe Reservation Reaffirmation Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr182'><span>H.R. 182 (116th): To extend the authorization for the Cape Cod National Seashore Advisory Commission.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hr183'><span>H.R. 183 (116th): To clarify the United States interest in certain submerged lands in the area of the Monomoy National Wildlife Refuge, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr6408'><span>H.R. 6408 (115th): ACE Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr5994'><span>H.R. 5994 (115th): ESCAPE Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr5966'><span>H.R. 5966 (115th): Women Veterans Access to Quality Care Act of 2018</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr5926'><span>H.R. 5926 (115th): Naloxone Guidelines Act of 2018</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr5883'><span>H.R. 5883 (115th): Unexploded Ordnance Removal Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr5851'><span>H.R. 5851 (115th): Deployed Civilian Parity Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr5585'><span>H.R. 5585 (115th): To extend the authorization for the Cape Cod National Seashore Advisory Commission.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr5244'><span>H.R. 5244 (115th): Mashpee Wampanoag Tribe Reservation Reaffirmation Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr4539'><span>H.R. 4539 (115th): Plymouth 400th Anniversary Commemorative Coin Act of 2017</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr4080'><span>H.R. 4080 (115th): Effective Opioid Enforcement Act of 2017</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr3805'><span>H.R. 3805 (115th): To authorize the Secretary of the Interior to carry out a land exchange involving lands within the boundaries of the Cape Cod National Seashore, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr3135'><span>H.R. 3135 (115th): Community Flood Insurance Savings Act of 2017</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr2894'><span>H.R. 2894 (115th): Tick-Borne Disease Prevention Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr2637'><span>H.R. 2637 (115th): Fishing Safety Training and Research Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr1157'><span>H.R. 1157 (115th): To clarify the United States interest in certain submerged lands in the area of the Monomoy National Wildlife Refuge, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hr665'><span>H.R. 665 (115th): Airport Perimeter and Access Control Security Act of 2017</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr6075'><span>H.R. 6075 (114th): To clarify the United States interest in certain submerged lands in the area of the Monomoy National Wildlife Refuge, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr5598'><span>H.R. 5598 (114th): Plymouth 400th Anniversary Commemorative Coin Act of 2016</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr5599'><span>H.R. 5599 (114th): Plymouth 400th Commemoration Commission Act of 2016</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr5495'><span>H.R. 5495 (114th): To require that certain information relating to terrorism investigations be included in the NICS database, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr5056'><span>H.R. 5056 (114th): Airport Perimeter and Access Control Security Act of 2016</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr5057'><span>H.R. 5057 (114th): Safe Prescribing for Veterans Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr4800'><span>H.R. 4800 (114th): To authorize the Secretary of the Interior to carry out a land exchange involving lands within the boundaries of the Cape Cod National Seashore, and for other purposes.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr3358'><span>H.R. 3358 (114th): Prevent Repeat Offenders Act of 2015</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr2335'><span>H.R. 2335 (114th): Stop Tampering of Prescription Pills Act of 2015</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr2285'><span>H.R. 2285 (114th): Prevent Trafficking in Cultural Property Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hr2012'><span>H.R. 2012 (114th): To amend the Magnuson-Stevens Fishery Conservation and Management Act to authorize competitive grants to support programs that address needs of fishing communities.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/113/hr4688'><span>H.R. 4688 (113th): Gold Star Families Equality Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/113/hr4025'><span>H.R. 4025 (113th): Fishing Safety Training and Research Act</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/113/hr486'><span>H.R. 486 (113th): Stop Tampering of Prescription Pills Act of 2013</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/112/hr6160'><span>H.R. 6160 (112th): Stop Tampering of Prescription Pills Act of 2012</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/112/hr3718'><span>H.R. 3718 (112th): Save Our Small and Seasonal Businesses Act of 2011</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/112/hr3686'><span>H.R. 3686 (112th): Save Our Small and Seasonal Businesses Act of 2011</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/112/hr3153'><span>H.R. 3153 (112th): For the relief of Patricia Macarelli, in her capacity as Administratrix of the estate of Edward Brian Halloran.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/112/hr3152'><span>H.R. 3152 (112th): For the relief of Patricia Donahue, individually and in her capacity as Administratrix of the estate of Michael J. Donahue; Michael T. Donahue; Shawn Donahue; and Thomas Donahue.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/112/hr2995'><span>H.R. 2995 (112th): Post 9-11 GI Jobs Act of 2011</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/112/hr2062'><span>H.R. 2062 (112th): To designate the facility of the United States Postal Service located at 45 Meetinghouse Lane in Sagamore Beach, Massachusetts, as the “Matthew A. Pucino Post Office”.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/112/hr1013'><span>H.R. 1013 (112th): Strengthen Fisheries Management in New England Act of 2011</span></a></p></li></ul><h4 id='resolutions'><span>Resolutions</span></h4><p><span>Keating has either sponsored or co-sponsored the following resolutions throughout his time in Congress:</span></p><ul><li><p><a href='https://www.govtrack.us/congress/bills/118/hres872'><span>H.Res. 872: Reaffirming the need for transatlantic cooperation to combat antisemitism in Europe.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hres749'><span>H.Res. 749: Supporting 30 years of diplomatic relations between the United States and the independent Czech Republic and Slovak Republic, highlighting their assistance to Ukraine, and supporting continued democratic resiliency.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hres441'><span>H.Res. 441: Condemning the authoritarian repression of the Belarusian democracy movement by the Lukashenka regime and calling for the release of all political prisoners as well as free and fair elections.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hres304'><span>H.Res. 304: Commending the International Criminal Court’s issuance of an arrest warrant for Vladimir Putin, President of the Russian Federation, and Maria Lvova-Belova, Commissioner for Children’s Rights in the Office of the President of the Russian Federation</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hres274'><span>H.Res. 274: Calling on major United States companies still operating in the Russian Federation to reconsider their continued presence given Russia’s full-scale invasion of Ukraine.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hconres27'><span>H.Con.Res. 27: Condemning Russia’s unjust and arbitrary detention of Russian opposition leader Vladimir Kara-Murza who has stood up in defense of democracy, the rule of law, and free and fair elections in Russia.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hres146'><span>H.Res. 146: Expressing strong support for the people of Moldova and for the Moldovan Government in their demonstrated commitment to advancing democracy, strengthening civil society, and European integration in the face of Russia’s illegal and full-scale </span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hres81'><span>H.Res. 81: Calling on the President to support the creation of a Special Tribunal for the Punishment of the Crime of Aggression against Ukraine.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hres41'><span>H.Res. 41: Underscoring continued support for the people of Ukraine in their fight against Russia’s aggression, reiterating support for Ukraine’s independence, sovereignty, and territorial integrity within its internationally recognized borders and its t</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/118/hres33'><span>H.Res. 33: Calling for the full implementation of the Belfast/Good Friday Agreement and expressing hope for the continued success of the Northern Ireland peace process on the 25th anniversary of the Belfast/Good Friday Agreement.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres1435'><span>H.Res. 1435 (117th): Calling on the President to support the creation of a Special Tribunal for the Punishment of the Crime of Aggression against Ukraine.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres1369'><span>H.Res. 1369 (117th): Recognizing the honorable life of Her Majesty Queen Elizabeth II as well as her leadership and commitment to the people of the United Kingdom, the Commonwealth, and the world.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres1130'><span>H.Res. 1130 (117th): Expressing support for the sovereign decision of Finland and Sweden to apply to join the North Atlantic Treaty Organization (NATO) as well as calling on all members of NATO to ratify the protocols of accession swiftly.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres1121'><span>H.Res. 1121 (117th): Calling for the immediate release of Russian opposition leader Vladimir Kara-Murza, who was unjustly detained on April 11, 2022.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres888'><span>H.Res. 888 (117th): Condemning the killing of 14 individuals and violence on Bloody Sunday, one of the most tragic of days during the Troubles 50 years ago, and calling on all parties to take meaningful steps toward peace and reconciliation.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres773'><span>H.Res. 773 (117th): Reaffirming German-American friendship and cooperation initiative.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres763'><span>H.Res. 763 (117th): Recognizing the Republic of Moldova’s 30th anniversary of independence and expressing support for the Republic of Moldova’s demonstrated commitment to advancing democracy, strengthening civil society, and European integration.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres505'><span>H.Res. 505 (117th): Expressing support for the people of Afghanistan, condemning the Taliban’s assault on human rights, and calling for the Federal Government to protect the Afghan citizens who bravely served alongside the Armed Forces of the United Stat</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres470'><span>H.Res. 470 (117th): Supporting the right of LGBTQI+ people to equal and inalienable human rights, economic rights, civil rights, and social and political equity at home and abroad and condemning discrimination, persecution, and violence against LGBTQI+ i</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres455'><span>H.Res. 455 (117th): Expressing support for the people of Russia, condemning the Kremlin’s assault on human rights and the freedom of expression, and calling for Vladimir Putin to immediately release Alexey Navalny.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/117/hres124'><span>H.Res. 124 (117th): Supporting the people of Belarus and their democratic aspirations and condemning the election rigging and subsequent violent crackdowns on peaceful protesters by the illegitimate Lukashenka regime.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres1196'><span>H.Res. 1196 (116th): Calling for an end to escalating violence in the Nagorno-Karabakh enclave, for each side to return to the peace process, and for external parties to cease their support for and interference in the conflict.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres1111'><span>H.Res. 1111 (116th): Supporting the people of Belarus and their democratic aspirations and condemning the election rigging and subsequent violent crackdowns on peaceful protestors by the Government of the Republic of Belarus.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres894'><span>H.Res. 894 (116th): Expressing the continued commitment of the House of Representatives to condemn and prevent the use of sexual and gender-based violence in armed conflict as a weapon of war and fully implement the Women, Peace, and Security Agenda.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres837'><span>H.Res. 837 (116th): Reaffirming the need for transatlantic cooperation to combat anti-Semitism in Europe.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres759'><span>H.Res. 759 (116th): Expressing that it is the sense of the House of Representatives that the Russian Federation interfered in the 2016 United States Presidential election and deliberately spread false information to implicate the Republic of Ukraine.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres683'><span>H.Res. 683 (116th): Celebrating the 30th anniversary of the fall of the Berlin Wall, the reunification of both Germany and Europe, and the spread of democracy around the world.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres665'><span>H.Res. 665 (116th): Reaffirming the strong partnership between the Kingdom of Denmark and the United States.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres487'><span>H.Res. 487 (116th): Expressing full support to the Ukrainian people in their aspiration to continue consolidating their democracy and rule of law.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres449'><span>H.Res. 449 (116th): Expressing support for a genuinely democratic repeat mayoral election in Istanbul, Turkey.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres446'><span>H.Res. 446 (116th): Reaffirming German-American friendship and cooperation under the Wunderbar Together-Germany and the U.S. initiative.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/116/hres413'><span>H.Res. 413 (116th): Expressing the immense gratitude of the House of Representatives for the acts of heroism, valor, and sacrifices made by the members of the United States Armed Forces and allied armed forces who participated in the June 6, 1944, amphib</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hres1169'><span>H.Res. 1169 (115th): Reaffirming the commitment of the United States to promote free, fair, transparent and credible elections in Bangladesh.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hres810'><span>H.Res. 810 (115th): Reaffirming the trade and investment partnership between the United States and the European Union is critical to the economic and national security of the United States.</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hconres52'><span>H.Con.Res. 52 (115th): Expressing the sense of Congress that an appropriate site in the Memorial Amphitheater in Arlington National Cemetery should be provided for a memorial marker to honor the memory of those who have been awarded or are eligible for t</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/115/hres207'><span>H.Res. 207 (115th): Expressing the continued support of the House of Representatives for the Good Friday Agreement (the Belfast Agreement).</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/114/hconres50'><span>H.Con.Res. 50 (114th): Expressing the sense of Congress that an appropriate site in the Memorial Amphitheater in Arlington National Cemetery should be provided for a memorial marker to honor the memory of those who have been awarded or are eligible for t</span></a></p></li><li><p><a href='https://www.govtrack.us/congress/bills/113/hres74'><span>H.Res. 74 (113th): Supporting the goals and objectives of Ireland’s Presidency of the Council of the European Union.</span></a></p></li></ul><p>&nbsp;</p></div></div>
+</body>
+</html>
