@@ -1,13 +1,5 @@
----
-author: David Ehrens
-title: A political profile of William R. Keating
-date: '2024-01-15 08:00'
-taxonomy:
-   category: blog
-   tag: [post]
----
----
- 
+### Political Profile of Rep. William R. Keating
+
 ![](greyscale.jpg)
 
 #### The Big Picture
@@ -347,4 +339,3 @@ Keating has either sponsored or co-sponsored the following resolutions throughou
 
 ---
 
-**[download as PDF](keating.pdf)**
