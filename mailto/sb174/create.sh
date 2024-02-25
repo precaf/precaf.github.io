@@ -1,3 +1,5 @@
+#!/bin/bash
+
 PEOPLE="Senate Chair John J. Cronin <John.Cronin@masenate.gov>,Senate Vice Chair Susan Moran <Susan.Moran@masenate.gov>,House Chair Tackey Chan <Tackey.Chan@mahouse.gov>,House Vice Chair Mary Keefe <Mary.Keefe@mahouse.gov>"
 CC="Rep. Alan Silvia <Alan.Silvia@mahouse.gov>,Rep. Antonio Cabral <Antonio.Cabral@mahouse.gov>,Rep. Carole A. Fiola <Carole.Fiola@mahouse.gov>,Rep. Christopher Hendricks <Chris.Hendricks@mahouse.gov>,Rep. Christopher M. Markey <christopher.markey@mahouse.gov>,Rep. Norman Orrall <Norman.Orrall@mahouse.gov>,Rep. Patricia Haddad <Patricia.Haddad@mahouse.gov>,Rep. Paul A. Schmid <paul.schmid@mahouse.gov>,Rep. Steve Howitt <Steven.Howitt@mahouse.gov>,Rep. Susan Williams Gifford <susan.gifford@mahouse.gov>,Rep. William M. Straus <William.Straus@mahouse.gov>,Sen. Marc R. Pacheco <Marc.Pacheco@masenate.gov>,Sen. Mark C. Montigny <Mark.Montigny@masenate.gov>,Sen. Michael Rodrigues <Michael.Rodrigues@masenate.gov>"
 BCC=""

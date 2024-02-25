@@ -1,3 +1,5 @@
+#!/bin/bash
+
 PEOPLE="Kristen McKinnon <chpef@mass.gov>"
 CC=""
 BCC="beacon23@proton.me"

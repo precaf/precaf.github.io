@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo '"url";"short_url"' > urls.csv
 function process {
   echo "\"$2\";\"$1\"" >> urls.csv

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm doit.html
 
 function process {

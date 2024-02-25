@@ -1,5 +1,5 @@
-
 #!/bin/bash
+
 # this is a Unix & MacOS script that will generate the correct HTML
 # for your Wordpress image caption.
 

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 TINY="http://precaf.github.io/tiny/"
 
 rm ".htaccess"
