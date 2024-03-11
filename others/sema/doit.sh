@@ -6,7 +6,7 @@ echo "<br/>"
 echo "<br/>"
 echo "<br/>"
 
-process "Linktree" "https://linktr.ee/sema.freepalestine" "linktree.png"
+process "Linktree" "https://linktr.ee/sema.freepalestine" "Linktree.png"
 process "Join us" "https://tiny.cc/sema-activist" "joinus.png"
 process "Help!" "https://semafreepalestine.vivaldi.net" "Help.png"
 
