@@ -1,4 +1,0 @@
-# Please don't bother indexing
-User-agent: *
-Disallow: /
-
